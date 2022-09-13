@@ -1,0 +1,1252 @@
+body{
+    min-width: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    overflow-x: hidden;
+}
+.dados{
+    height: 40px;
+    background-color: black;
+    display: block;
+
+}
+
+.dados a{
+    color: white;
+    text-decoration: none;
+}
+.menu{
+    padding-left: 450px;
+    background-color: #002122;
+    padding-top: 5px;
+}
+.menu a{
+    padding-bottom: 0px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+.main{
+    padding-right: -200px;
+    width: 600px;
+    background-color: #043738;
+    border-radius: 5%;
+    padding: 20px 25px 40px;
+    padding-top: 15px;
+    flex-direction: column;
+}
+.from-grupo{
+    padding: 10px;
+    border-radius: 12px;
+    display: grid;
+    flex-direction: column;
+}
+.from-grupo label{
+    color: white;
+}
+.from-btn{
+    padding: auto;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+button{
+    width: 500px;
+    height: 50px;
+    margin: 5px auto;
+    border-radius: 2px;
+    background-color: #156568;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.butmain{
+    padding-top: 70px;
+}
+.butmain button{
+    width: 50px;
+}
+.but{
+    padding-bottom: 50px;
+}
+.but button{
+    background-color: #156568;
+    color: black;
+    width: 150px;
+    border-radius: 15px;
+}
+.butt button{
+    width: 200px;
+    border-radius: 10px;
+}
+.tela1{
+    background-color: #043738;
+    padding: 30px;
+}
+.tela2{
+    height: 300px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #12474762;
+}
+.tela2 h2{
+    padding-top: 100px;
+    font-size: 1.5rem;
+    color: white;
+}
+.tela3{
+    padding-top: 10px;
+    background-color: #043738;
+}
+.tela4{
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #12474762;
+}
+.tela4 h3{
+    padding-top: 80px;
+    font-size: 1.5rem;
+    color: white;
+}
+.tela5{
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #12474762;
+}
+.tela5 .from-grupo{
+    padding-top: 70px;
+}
+.tela5 .butt{
+    padding-top: 70px;
+}
+.tela5 h3{
+    padding-top: 70px;
+    color: white;
+    font-size: 2.5rem;
+}
+.tela6{
+    padding-top: 10px;
+    background-color: #043738;
+}
+.tela7{
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #12474762;
+}
+.tela7 .from-grupo{
+    padding-top: 70px;
+}
+.tela7 .butt{
+    padding-top: 70px;
+}
+.tela7 h3{
+    padding-top: 70px;
+    color: white;
+    font-size: 2.5rem;
+}
+.tela8{
+    padding-top: 10px;
+    background-color: #043738;
+}
+.tela9{
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #12474762;
+}
+.tela9 .from-grupo{
+    padding-top: 70px;
+}
+.tela9 .butt{
+    padding-top: 70px;
+}
+.tela9 h3{
+    padding-top: 70px;
+    color: white;
+    font-size: 2.5rem;
+}
+.tela10{
+    padding-top: 10px;
+    background-color: #043738;
+}
+.tela11{
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #12474762;
+}
+.tela11 .from-grupo{
+    padding-top: 70px;
+}
+.tela11 .butt{
+    padding-top: 70px;
+}
+.tela11 h3{
+    padding-top: 70px;
+    color: white;
+    font-size: 2.5rem;
+}
+.tela12{
+    padding-top: 10px;
+    background-color: #043738;
+}
+.tela13{
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #12474762;
+}
+.tela13 .from-grupo{
+    padding-top: 70px;
+}
+.tela13 .butt{
+    padding-top: 70px;
+}
+.tela13 h3{
+    padding-top: 70px;
+    color: white;
+    font-size: 2.5rem;
+}
+.tela14{
+    padding-top: 10px;
+    background-color: #043738;
+}
+.tela15{
+    height: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #002122;
+}
+ion-icon {
+    font-size: 20px;
+ }
+
+.slider {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+.slider img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider li:nth-child(4) label {
+    left: 110px;
+}
+.slider img {
+    margin-top: 40px;
+    opacity: 0;
+    visibility: hidden;
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.sldr {
+    padding-left: 80px;
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+}
+.sldr li {
+    list-style: none;
+    position: absolute;
+}
+.sldr img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.sldr input {
+    display: none;
+}
+.sldr label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.sldr li:nth-child(1) label {
+    left: 10px;
+}
+.sldr li:nth-child(2) label {
+    left: 40px;
+}
+.sldr li:nth-child(3) label {
+    left: 70px;
+}
+.sldr li:nth-child(4) label {
+    left: 110px;
+}
+.sldr img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.sldr li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.sld {
+    padding-left: 80px;
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+}
+.sld li {
+    list-style: none;
+    position: absolute;
+}
+.sld img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.sld input {
+    display: none;
+}
+.sld label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.sld li:nth-child(1) label {
+    left: 10px;
+}
+.sld li:nth-child(2) label {
+    left: 40px;
+}
+.sld li:nth-child(3) label {
+    left: 70px;
+}
+.sld li:nth-child(4) label {
+    left: 110px;
+}
+.sld img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.sld li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.slr {
+    padding-left: 80px;
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+}
+.slr li {
+    list-style: none;
+    position: absolute;
+}
+.slr img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.slr input {
+    display: none;
+}
+.slr label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.slr li:nth-child(1) label {
+    left: 10px;
+}
+.slr li:nth-child(2) label {
+    left: 40px;
+}
+.slr li:nth-child(3) label {
+    left: 70px;
+}
+.slr li:nth-child(4) label {
+    left: 110px;
+}
+.slr li:nth-child(5) label {
+    left: 140px;
+}
+.slr li:nth-child(6) label {
+    left: 170px;
+}
+.slr li:nth-child(7) label {
+    left: 200px;
+}
+.slr li:nth-child(8) label {
+    left: 230px;
+}
+.slr li:nth-child(9) label {
+    left: 260px;
+}
+.slr img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.slr li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.ldr {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.ldr li {
+    list-style: none;
+    position: absolute;
+}
+.ldr img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.ldr input {
+    display: none;
+}
+.ldr label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.ldr li:nth-child(1) label {
+    left: 10px;
+}
+.ldr li:nth-child(2) label {
+    left: 40px;
+}
+.ldr li:nth-child(3) label {
+    left: 70px;
+}
+.ldr li:nth-child(4) label {
+    left: 110px;
+}
+.ldr li:nth-child(5) label {
+    left: 140px;
+}
+.ldr li:nth-child(6) label {
+    left: 170px;
+}
+.ldr img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.ldr li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.uldr {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.uldr li {
+    list-style: none;
+    position: absolute;
+}
+.uldr img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.uldr input {
+    display: none;
+}
+.uldr label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.uldr li:nth-child(1) label {
+    left: 10px;
+}
+.uldr li:nth-child(2) label {
+    left: 40px;
+}
+.uldr li:nth-child(3) label {
+    left: 70px;
+}
+.uldr li:nth-child(4) label {
+    left: 110px;
+}
+.uldr li:nth-child(5) label {
+    left: 140px;
+}
+.uldr li:nth-child(6) label {
+    left: 170px;
+}
+.uldr li:nth-child(7) label {
+    left: 200px;
+}
+.uldr li:nth-child(8) label {
+    left: 230px;
+}
+.uldr li:nth-child(9) label {
+    left: 260px;
+}
+.uldr li:nth-child(10) label {
+    left: 290px;
+}
+.uldr li:nth-child(11) label {
+    left: 320px;
+}
+.uldr img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.uldr li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.hyl {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.hyl li {
+    list-style: none;
+    position: absolute;
+}
+.hyl img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.hyl input {
+    display: none;
+}
+.hyl label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.hyl li:nth-child(1) label {
+    left: 10px;
+}
+.hyl li:nth-child(2) label {
+    left: 40px;
+}
+.hyl li:nth-child(3) label {
+    left: 70px;
+}
+.hyl li:nth-child(4) label {
+    left: 110px;
+}
+.hyl li:nth-child(5) label {
+    left: 140px;
+}
+.hyl li:nth-child(6) label {
+    left: 170px;
+}
+.hyl li:nth-child(7) label {
+    left: 200px;
+}
+.hyl li:nth-child(8) label {
+    left: 230px;
+}
+.hyl li:nth-child(9) label {
+    left: 260px;
+}
+.hyl li:nth-child(10) label {
+    left: 290px;
+}
+.hyl li:nth-child(11) label {
+    left: 320px;
+}
+.hyl img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.hyl li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.ludr {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.ludr li {
+    list-style: none;
+    position: absolute;
+}
+.ludr img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.ludr input {
+    display: none;
+}
+.ludr label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.ludr li:nth-child(1) label {
+    left: 10px;
+}
+.ludr li:nth-child(2) label {
+    left: 40px;
+}
+.ludr li:nth-child(3) label {
+    left: 70px;
+}
+.ludr li:nth-child(4) label {
+    left: 110px;
+}
+.ludr li:nth-child(5) label {
+    left: 140px;
+}
+.ludr li:nth-child(6) label {
+    left: 170px;
+}
+.ludr li:nth-child(7) label {
+    left: 200px;
+}
+.ludr li:nth-child(8) label {
+    left: 230px;
+}
+.ludr li:nth-child(9) label {
+    left: 260px;
+}
+.ludr li:nth-child(10) label {
+    left: 290px;
+}
+.ludr li:nth-child(11) label {
+    left: 320px;
+}
+.ludr img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.ludr li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.ahyl {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.ahyl li {
+    list-style: none;
+    position: absolute;
+}
+.ahyl img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.ahyl input {
+    display: none;
+}
+.ahyl label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.ahyl li:nth-child(1) label {
+    left: 10px;
+}
+.ahyl li:nth-child(2) label {
+    left: 40px;
+}
+.ahyl li:nth-child(3) label {
+    left: 70px;
+}
+.ahyl li:nth-child(4) label {
+    left: 110px;
+}
+.ahyl li:nth-child(5) label {
+    left: 140px;
+}
+.ahyl li:nth-child(6) label {
+    left: 170px;
+}
+.ahyl li:nth-child(7) label {
+    left: 200px;
+}
+.ahyl li:nth-child(8) label {
+    left: 230px;
+}
+.ahyl li:nth-child(9) label {
+    left: 260px;
+}
+.ahyl img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.ahyl li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.nyc {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.nyc li {
+    list-style: none;
+    position: absolute;
+}
+.nyc img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.nyc input {
+    display: none;
+}
+.nyc label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.nyc li:nth-child(1) label {
+    left: 10px;
+}
+.nyc li:nth-child(2) label {
+    left: 40px;
+}
+.nyc li:nth-child(3) label {
+    left: 70px;
+}
+.nyc li:nth-child(4) label {
+    left: 110px;
+}
+.nyc li:nth-child(5) label {
+    left: 140px;
+}
+.nyc li:nth-child(6) label {
+    left: 170px;
+}
+.nyc li:nth-child(7) label {
+    left: 200px;
+}
+.nyc li:nth-child(8) label {
+    left: 230px;
+}
+.nyc li:nth-child(9) label {
+    left: 260px;
+}
+.nyc li:nth-child(10) label {
+    left: 290px;
+}
+.nyc li:nth-child(11) label {
+    left: 320px;
+}
+.nyc img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.nyc li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.ptlis {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.ptlis li {
+    list-style: none;
+    position: absolute;
+}
+.ptlis img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.ptlis input {
+    display: none;
+}
+.ptlis label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.ptlis li:nth-child(1) label {
+    left: 10px;
+}
+.ptlis li:nth-child(2) label {
+    left: 40px;
+}
+.ptlis li:nth-child(3) label {
+    left: 70px;
+}
+.ptlis li:nth-child(4) label {
+    left: 110px;
+}
+.ptlis li:nth-child(5) label {
+    left: 140px;
+}
+.ptlis li:nth-child(6) label {
+    left: 170px;
+}
+.ptlis li:nth-child(7) label {
+    left: 200px;
+}
+.ptlis li:nth-child(8) label {
+    left: 230px;
+}
+.ptlis li:nth-child(9) label {
+    left: 260px;
+}
+.ptlis li:nth-child(10) label {
+    left: 290px;
+}
+.ptlis li:nth-child(11) label {
+    left: 320px;
+}
+.ptlis li:nth-child(12) label {
+    left: 350px;
+}
+.ptlis img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.ptlis li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.lis {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.lis li {
+    list-style: none;
+    position: absolute;
+}
+.lis img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.lis input {
+    display: none;
+}
+.lis label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.lis li:nth-child(1) label {
+    left: 10px;
+}
+.lis li:nth-child(2) label {
+    left: 40px;
+}
+.lis li:nth-child(3) label {
+    left: 70px;
+}
+.lis li:nth-child(4) label {
+    left: 110px;
+}
+.lis li:nth-child(5) label {
+    left: 140px;
+}
+.lis li:nth-child(6) label {
+    left: 170px;
+}
+.lis li:nth-child(7) label {
+    left: 200px;
+}
+.lis li:nth-child(8) label {
+    left: 230px;
+}
+.lis li:nth-child(9) label {
+    left: 260px;
+}
+.lis li:nth-child(10) label {
+    left: 290px;
+}
+.lis li:nth-child(11) label {
+    left: 320px;
+}
+.lis img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.lis li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.crbres {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.crbres li {
+    list-style: none;
+    position: absolute;
+}
+.crbres img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.crbres input {
+    display: none;
+}
+.crbres label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.crbres li:nth-child(1) label {
+    left: 10px;
+}
+.crbres li:nth-child(2) label {
+    left: 40px;
+}
+.crbres li:nth-child(3) label {
+    left: 70px;
+}
+.crbres li:nth-child(4) label {
+    left: 110px;
+}
+.crbres li:nth-child(5) label {
+    left: 140px;
+}
+.crbres li:nth-child(6) label {
+    left: 170px;
+}
+.crbres li:nth-child(7) label {
+    left: 200px;
+}
+.crbres li:nth-child(8) label {
+    left: 230px;
+}
+.crbres li:nth-child(9) label {
+    left: 260px;
+}
+.crbres li:nth-child(10) label {
+    left: 290px;
+}
+.crbres li:nth-child(11) label {
+    left: 320px;
+}
+.crbres li:nth-child(12) label {
+    left: 350px;
+}
+.crbres img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.crbres li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+
+.cbs {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.cbs li {
+    list-style: none;
+    position: absolute;
+}
+.cbs img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.cbs input {
+    display: none;
+}
+.cbs label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.cbs li:nth-child(1) label {
+    left: 10px;
+}
+.cbs li:nth-child(2) label {
+    left: 40px;
+}
+.cbs li:nth-child(3) label {
+    left: 70px;
+}
+.cbs li:nth-child(4) label {
+    left: 110px;
+}
+.cbs li:nth-child(5) label {
+    left: 140px;
+}
+.cbs li:nth-child(6) label {
+    left: 170px;
+}
+.cbs li:nth-child(7) label {
+    left: 200px;
+}
+.cbs li:nth-child(8) label {
+    left: 230px;
+}
+.cbs li:nth-child(9) label {
+    left: 260px;
+}
+.cbs li:nth-child(10) label {
+    left: 290px;
+}
+.cbs li:nth-child(11) label {
+    left: 320px;
+}
+.cbs li:nth-child(12) label {
+    left: 350px;
+}
+.cbs img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.cbs li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}

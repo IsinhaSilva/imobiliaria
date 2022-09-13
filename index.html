@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="js/bootstrap.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa do Sonho</title>
+</head>
+
+<body background="img/fundo.png">
+    <section>
+        <div class="container-fluit dados text-center">
+            <div class="row">
+                <div class="col-sm-9">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <ion-icon name="call-outline"></ion-icon>(34) 9981-3312
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <ion-icon name="logo-whatsapp"></ion-icon>(34) 9981-3312
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <ion-icon name="logo-instagram"></ion-icon>@casadossonhos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <ion-icon name="logo-tiktok"></ion-icon>Casa dos Sonhos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <ion-icon name="mail-outline"></ion-icon>imobiliariadossonhos@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit text-center menu">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="menu">
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link  active" id="nav-home-tab" data-toggle="tab"
+                                    href="#nav-inicio" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">INICIO</a>
+                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-locacao"
+                                    role="tab" aria-controls="nav-profile" aria-selected="false">LOCAÇÃO</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-anunciar"
+                                    role="tab" aria-controls="nav-contact" aria-selected="false">ANUNCIAR</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-vendas"
+                                    role="tab" aria-controls="nav-contact" aria-selected="false">VENDAS</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-inicio" role="tabpanel"
+                                aria-labelledby="nav-inicio-tab"></div>
+                            <div class="tab-pane fade" id="nav-locacao" role="tabpanel"
+                                aria-labelledby="nav-locacao-tab">...</div>
+                            <div class="tab-pane fade" id="nav-anunciar" role="tabpanel"
+                                aria-labelledby="nav-anunciar-tab">...</div>
+                            <div class="tab-pane fade" id="nav-vendas" role="tabpanel" aria-labelledby="nav-vendas-tab">
+                                ...</div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela1">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <ul class="slider">
+                        <li>
+                            <input type="radio" id="slide1" name="slide" checked>
+                            <label for="slide1"></label>
+                            <img src="img/primcasa.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slide2" name="slide">
+                            <label for="slide2"></label>
+                            <img src="img/segcasa.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slide3" name="slide">
+                            <label for="slide3"></label>
+                            <img src="img/terccasa.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slide4" name="slide">
+                            <label for="slide4"></label>
+                            <img src="img/quarcasa.png" />
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="main">
+                        <form class="from">
+                            <div class="from-grupo">
+                                <label for="situacao">Finalidade</label>
+                                <select id="dropdown" name="situacao" required>
+                                    <option value="disable selected value">ESCOLHA</option>
+                                    <option value="student">Aluguel</option>
+                                    <option value="job">Vendas</option>
+                                </select>
+                            </div>
+                            <div class="from-grupo">
+                                <label for="situacao">Tipo de propriedade</label>
+                                <select id="dropdown" name="situacao" required>
+                                    <option value="disable selected value">ESCOLHA</option>
+                                    <option value="student">Apartamento</option>
+                                    <option value="job">Casa</option>
+                                    <option value="job">Galpao</option>
+                                    <option value="job">Loja</option>
+                                    <option value="job">Lote</option>
+                                    <option value="job">Sala</option>
+                                </select>
+                            </div>
+                            <div class="from-grupo">
+                                <label for="situacao">Número de Suites</label>
+                                <select id="dropdown" name="situacao" required>
+                                    <option value="disable selected value">ESCOLHA</option>
+                                    <option value="job">1</option>
+                                    <option value="job">2</option>
+                                    <option value="job">3</option>
+                                    <option value="job">4</option>
+                                    <option value="job">5</option>
+                                    <option value="job">Nenhumas</option>
+                                </select>
+                            </div>
+                            <div class="from-grupo">
+                                <label for="situacao">Número de quartos</label>
+                                <select id="dropdown" name="situacao" required>
+                                    <option value="disable selected value">ESCOLHA</option>
+                                    <option value="job">4</option>
+                                    <option value="job">5</option>
+                                    <option value="job">6</option>
+                                    <option value="job">7</option>
+                                    <option value="job">8</option>
+                                    <option value="job">Nenhumas</option>
+                                </select>
+                            </div>
+                            <div class="from-grupo">
+                                <label for="situacao">Número de Banheiros</label>
+                                <select id="dropdown" name="situacao" required>
+                                    <option value="disable selected value">ESCOLHA</option>
+                                    <option value="student">2</option>
+                                    <option value="job">3</option>
+                                    <option value="job">4</option>
+                                </select>
+                            </div>
+                            <div class="from-grupo">
+                                <label for="situacao">Número de Lavabos</label>
+                                <select id="dropdown" name="situacao" required>
+                                    <option value="disable selected value">ESCOLHA</option>
+                                    <option value="student">2</option>
+                                    <option value="job">3</option>
+                                    <option value="job">4</option>
+                                    <option value="job">5</option>
+                                    <option value="job">6</option>
+                                </select>
+                            </div>
+                            <div class="from-grupo">
+                                <label for="situacao">Escolha a cidade</label>
+                                <select id="dropdown" name="situacao" required>
+                                    <option value="disable selected value">ESCOLHA</option>
+                                    <option value="student">Belo Horizonte</option>
+                                    <option value="job">Montes Claros</option>
+                                    <option value="job">Uberaba</option>
+                                    <option value="job">Juiz de Fora</option>
+                                    <option value="job">Uberlândia</option>
+                                    <option value="job">Betim</option>
+                                    <option value="job">Angelândia</option>
+                                    <option value="job">Ribeirão das Neves</option>
+                                    <option value="job">Contagem</option>
+                                    <option value="job">Governador Valadares</option>
+                                    <option value="job">Ipatinga</option>
+                                    <option value="job">Conselheiro Lafaiete</option>
+                                    <option value="job">Ouro Preto</option>
+                                    <option value="job">Mariana</option>
+                                    <option value="job">Poços de Caldas</option>
+                                    <option value="job">Além Paraíba</option>
+                                    <option value="job">Congonhas</option>
+                                    <option value="job">Divinópolis</option>
+                                    <option value="job">Pará de Minas</option>
+                                    <option value="job">Araxá</option>
+                                    <option value="job">Águas Vermelhas</option>
+                                    <option value="job">Nova Serrana</option>
+                                    <option value="job">Itajubá</option>
+                                    <option value="job">João Pinheiro</option>
+                                    <option value="job">Passos</option>
+                                    <option value="job">Pouso Alegre</option>
+                                    <option value="job">Alvinópolis</option>
+                                    <option value="job">Patrocínio</option>
+                                    <option value="job">Alto Rio Doce</option>
+                                    <option value="job">Lagoa Santa</option>
+                                    <option value="job">Antônio Carlos</option>
+                                    <option value="job">Muriaé</option>
+                                    <option value="job">Água Comprida</option>
+                                    <option value="job">Araguari</option>
+                                    <option value="job">Diamantina</option>
+                                    <option value="job">Sete Lagoas</option>
+                                    <option value="job">Águas Formosas</option>
+                                    <option value="job">Jaíba</option>
+                                    <option value="job">Arceburgo</option>
+                                    <option value="job">Arcos</option>
+                                    <option value="job">Acaiaca</option>
+                                    <option value="job">Areado</option>
+                                    <option value="job">Almenara</option>
+                                    <option value="job">Alfenas</option>
+                                    <option value="job">Andradas</option>
+                                    <option value="job">Camanducaia</option>
+                                    <option value="job">Alvorada de Minas</option>
+                                    <option value="job">Arinos</option>
+                                    <option value="job">Abaeté</option>
+                                    <option value="job">Juramento</option>
+                                </select>
+                                <div class="from-grupo">
+                                    <button>Buscar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela2">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h2>
+                        QUER VENDER OU ALUGAR SEU IMOVEL?
+                        <br>
+                        <span style="color: #1ac1c7;">ENTRE EM CONTADO CONOSCO</span>
+                    </h2>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h2>
+                        (34) 9981-3312
+                    </h2>
+                    <div class="but">
+                        <button>Enviar Mensagem</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela3">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="sldr">
+                        <li>
+                            <input type="radio" id="sldr1" name="sld" checked>
+                            <label for="sldr1"></label>
+                            <img src="img/1.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="sldr2" name="sld">
+                            <label for="sldr2"></label>
+                            <img src="img/2.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="sldr3" name="sld">
+                            <label for="sldr3"></label>
+                            <img src="img/3.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="sldr4" name="sld">
+                            <label for="sldr4"></label>
+                            <img src="img/4.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="sld">
+                        <li>
+                            <input type="radio" id="sld1" name="sl" checked>
+                            <label for="sld1"></label>
+                            <img src="img/a.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="sld2" name="sl">
+                            <label for="sld2"></label>
+                            <img src="img/b.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="sld3" name="sl">
+                            <label for="sld3"></label>
+                            <img src="img/c.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="sld4" name="sl">
+                            <label for="sld4"></label>
+                            <img src="img/d.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="slr">
+                        <li>
+                            <input type="radio" id="slr1" name="slr" checked>
+                            <label for="slr1"></label>
+                            <img src="img/aa.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slr2" name="slr">
+                            <label for="slr2"></label>
+                            <img src="img/ab.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slr3" name="slr">
+                            <label for="slr3"></label>
+                            <img src="img/ac.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slr4" name="slr">
+                            <label for="slr4"></label>
+                            <img src="img/ah.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slr5" name="slr" checked>
+                            <label for="slr5"></label>
+                            <img src="img/ae.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slr6" name="slr">
+                            <label for="slr6"></label>
+                            <img src="img/af.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slr7" name="slr">
+                            <label for="slr7"></label>
+                            <img src="img/ag.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slr8" name="slr">
+                            <label for="slr8"></label>
+                            <img src="img/ad.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="slr9" name="slr">
+                            <label for="slr9"></label>
+                            <img src="img/ai.png" />
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>
+                        QUER FAZER UMA VIAGEM?
+                    </h3>
+                    <h2>
+                        <span style="color: #1ac1c7;">AQUI VOCÊ ENCONTRA O QUE PROCURA </span>
+                        
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela5 text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>MALDIVAS</h3>
+                </div>
+                <div class="col-md-4">
+                    <form action="from">
+                        <div class="from-grupo">
+                            <label for="situacao"></label>
+                            <select id="dropdown" name="situacao" required>
+                                <option value="disable selected value">Hotel</option>
+                                <option value="student">Sun Siyam Vilu Reef</option>
+                                <option value="job">Sun Siyam Iru Fushi Maldives</option>
+                                <option value="job">Constance Moofushi Maldives</option>
+                                <option value="job">Ayada Maldives</option>
+                                <option value="job">Hurawalhi Island Resort</option>
+                                <option value="job">Fushifaru Maldives</option>
+                                <option value="job">Royal Island Resort & Spa</option>
+                                <option value="job">Hotel Riu Atoll</option>
+                                <option value="job"> Coco Bodu Hithi</option>
+                                <option value="job">Sun Siyam Olhuveli</option>
+                                <option value="job">Summer Island Maldives</option>
+                                <option value="job">Mais opções</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="butt">
+                        <button>Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela6 text-center">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <ul class="ldr">
+                        <li>
+                            <input type="radio" id="ldr1" name="ld" checked>
+                            <label for="ldr1"></label>
+                            <img src="img/a1.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ldr2" name="ld">
+                            <label for="ldr2"></label>
+                            <img src="img/a2.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ldr3" name="ld">
+                            <label for="ldr3"></label>
+                            <img src="img/a3.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ldr4" name="ld">
+                            <label for="ldr4"></label>
+                            <img src="img/a4.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ldr5" name="ld">
+                            <label for="ldr5"></label>
+                            <img src="img/a5.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ldr6" name="ld">
+                            <label for="ldr6"></label>
+                            <img src="img/a6.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="uldr">
+                        <li>
+                            <input type="radio" id="uldr1" name="ldu" checked>
+                            <label for="uldr1"></label>
+                            <img src="img/dac1.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="uldr2" name="ldu">
+                            <label for="uldr2"></label>
+                            <img src="img/dac2.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="uldr3" name="ldu">
+                            <label for="uldr3"></label>
+                            <img src="img/dac3.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="uldr4" name="ldu">
+                            <label for="uldr4"></label>
+                            <img src="img/dac4.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="uldr5" name="ldu">
+                            <label for="uldr5"></label>
+                            <img src="img/dac5.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="uldr6" name="ldu">
+                            <label for="uldr6"></label>
+                            <img src="img/dac6.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="uldr7" name="ldu">
+                            <label for="uldr7"></label>
+                            <img src="img/dac7.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="uldr8" name="ldu">
+                            <label for="uldr8"></label>
+                            <img src="img/dac8.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="uldr9" name="ldu">
+                            <label for="uldr9"></label>
+                            <img src="img/dac9.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="uldr10" name="ldu">
+                            <label for="uldr10"></label>
+                            <img src="img/dac10.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="uldr11" name="ldu">
+                            <label for="uldr11"></label>
+                            <img src="img/dac11.png" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 but">
+                    <button>Ver Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela7 text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>JAPÃO</h3>
+                </div>
+                <div class="col-md-4 hot">
+                    <form action="from">
+                        <div class="from-grupo">
+                            <label for="situacao"></label>
+                            <select id="dropdown" name="situacao" required>
+                                <option value="disable selected value">Hotel</option>
+                                <option value="job">Nikko Alivila Yomitan Resort Okinawa</option>
+                                <option value="job">Cerulean Tower Tokyu Hotel</option>
+                                <option value="job">Yokohama Royal Park Hotel</option>
+                                <option value="job">Hyatt Regency Kyoto</option>
+                                <option value="job">The Prince Park Tower Tokyo</option>
+                                <option value="job">Haneda Excel Hotel Tokyu</option>
+                                <option value="job">The Yokohama Bay Hotel Tokyu</option>
+                                <option value="job">RIHGA Royal Hotel Osaka</option>
+                                <option value="job">Hilton Tokyo Bay</option>
+                                <option value="job">Kobe Meriken Park Oriental Hotel</option>
+                                <option value="job">Mitsui Garden Hotel Nagoya Premier</option>
+                                <option value="job">Mais opções</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="butt">
+                        <button>Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela8 text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="hyl">
+                        <li>
+                            <input type="radio" id="hyl1" name="hyld" checked>
+                            <label for="hyl1"></label>
+                            <img src="img/aac1.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="hyl2" name="hyld">
+                            <label for="hyl2"></label>
+                            <img src="img/aac2.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="hyl3" name="hyld">
+                            <label for="hyl3"></label>
+                            <img src="img/aac3.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="hyl4" name="hyld">
+                            <label for="hyl4"></label>
+                            <img src="img/aac4.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="hyl5" name="hyld">
+                            <label for="hyl5"></label>
+                            <img src="img/aac5.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="hyl6" name="hyld">
+                            <label for="hyl6"></label>
+                            <img src="img/aac6.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="hyl7" name="hyld">
+                            <label for="hyl7"></label>
+                            <img src="img/aac7.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="hyl8" name="hyld">
+                            <label for="hyl8"></label>
+                            <img src="img/aac8.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="hyl9" name="hyld">
+                            <label for="hyl9"></label>
+                            <img src="img/aac9.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="hyl10" name="hyld">
+                            <label for="hyl10"></label>
+                            <img src="img/aac10.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="hyl11" name="hyld">
+                            <label for="hyl11"></label>
+                            <img src="img/aac11.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="ludr">
+                        <li>
+                            <input type="radio" id="ludr1" name="lud" checked>
+                            <label for="ludr1"></label>
+                            <img src="img/ac11.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ludr2" name="lud">
+                            <label for="ludr2"></label>
+                            <img src="img/ac2.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ludr3" name="lud">
+                            <label for="ludr3"></label>
+                            <img src="img/ac3.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ludr4" name="lud">
+                            <label for="ludr4"></label>
+                            <img src="img/ac4.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ludr5" name="lud">
+                            <label for="ludr5"></label>
+                            <img src="img/ac5.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ludr6" name="lud">
+                            <label for="ludr6"></label>
+                            <img src="img/ac6.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ludr7" name="lud">
+                            <label for="ludr7"></label>
+                            <img src="img/ac7.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ludr8" name="lud">
+                            <label for="ludr8"></label>
+                            <img src="img/ac8.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ludr9" name="lud">
+                            <label for="ludr9"></label>
+                            <img src="img/ac9.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ludr10" name="lud">
+                            <label for="ludr10"></label>
+                            <img src="img/ac10.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ludr11" name="lud">
+                            <label for="ludr11"></label>
+                            <img src="img/ac1.png" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 but">
+                <button>Ver Mais</button>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela9 text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>NEW YORK</h3>
+                </div>
+                <div class="col-md-4">
+                    <form action="from">
+                        <div class="from-grupo">
+                            <label for="situacao"></label>
+                            <select id="dropdown" name="situacao" required>
+                                <option value="disable selected value">Hotel</option>
+                                <option value="job">Trump International Hotel and Tower New York</option>
+                                <option value="job">The Chatwal A Luxury Collection Hotel, New York City</option>                                
+                                <option value="job">Gansevoort Meatpacking lis</option>
+                                <option value="job">Greenwich Hotel</option>                                
+                                <option value="job">The Dominick Hotel</option>                                
+                                <option value="job">Equinox Hotel New York</option>
+                                <option value="job">ModernHaus SoHo</option>
+                                <option value="job">Four Seasons Hotel New York Downtown</option>
+                                <option value="job">SIXTY LES</option>
+                                <option value="job">The Marmara Park Avenue</option>
+                                <option value="job">Royalton Park Avenue</option>
+                                <option value="job">Mais opções</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="butt">
+                        <button>Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela10 text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="ahyl">
+                        <li>
+                            <input type="radio" id="ahyl1" name="nyld" checked>
+                            <label for="ahyl1"></label>
+                            <img src="img/ali.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ahyl2" name="nyld">
+                            <label for="ahyl2"></label>
+                            <img src="img/alb.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ahyl3" name="nyld">
+                            <label for="ahyl3"></label>
+                            <img src="img/alc.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ahyl4" name="nyld">
+                            <label for="ahyl4"></label>
+                            <img src="img/ald.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ahyl5" name="nyld">
+                            <label for="ahyl5"></label>
+                            <img src="img/ale.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ahyl6" name="nyld">
+                            <label for="ahyl6"></label>
+                            <img src="img/alf.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ahyl7" name="nyld">
+                            <label for="ahyl7"></label>
+                            <img src="img/alg.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ahyl8" name="nyld">
+                            <label for="ahyl8"></label>
+                            <img src="img/alh.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ahyl9" name="nyld">
+                            <label for="ahyl9"></label>
+                            <img src="img/ala.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="nyc">
+                        <li>
+                            <input type="radio" id="nyc1" name="lnyd" checked>
+                            <label for="nyc1"></label>
+                            <img src="img/nyc.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="nyc2" name="lnyd">
+                            <label for="nyc2"></label>
+                            <img src="img/nya.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="nyc3" name="lnyd">
+                            <label for="nyc3"></label>
+                            <img src="img/nyb.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="nyc4" name="lnyd">
+                            <label for="nyc4"></label>
+                            <img src="img/ny.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="nyc5" name="lnyd">
+                            <label for="nyc5"></label>
+                            <img src="img/nyh.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="nyc6" name="lnyd">
+                            <label for="nyc6"></label>
+                            <img src="img/nyi.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="nyc7" name="lnyd">
+                            <label for="nyc7"></label>
+                            <img src="img/nyj.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="nyc8" name="lnyd">
+                            <label for="nyc8"></label>
+                            <img src="img/nyg.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="nyc9" name="lnyd">
+                            <label for="nyc9"></label>
+                            <img src="img/nyd.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="nyc10" name="lnyd">
+                            <label for="nyc10"></label>
+                            <img src="img/nye.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="nyc11" name="lnyd">
+                            <label for="nyc11"></label>
+                            <img src="img/nyf.png" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 but">
+                <button>Ver Mais</button>
+        </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container-fluit tela11 text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>PORTUGAL</h3>
+                </div>
+                <div class="col-md-4">
+                    <form action="from">
+                        <div class="from-grupo">
+                            <label for="situacao"></label>
+                            <select id="dropdown" name="situacao" required>
+                                <option value="disable selected value">Hotel</option>
+                                <option value="job"><option value="job"></option></option>
+                                <option value="job">Hotel Avenida Palace</option>
+                                <option value="job">Novotel Lisboa</option>
+                                <option value="job">Melia Lisboa Aeroporto</option>
+                                <option value="job">Hotel Borges Chiado</option>
+                                <option value="job">Hotel Mundial</option>
+                                <option value="job">Martinhal Lisbon Chiado Family Suites</option>
+                                <option value="job">Vincci Liberdade</option>
+                                <option value="job">Brown's Central Hotel</option>                                
+                                <option value="job">EPIC SANA Lisboa Hotel</option>
+                                <option value="job">Star inn Lisbon</option>
+                                <option value="job">Mais opções</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="butt">
+                        <button>Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela12 text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="ptlis">
+                        <li>
+                            <input type="radio" id="ptlis1" name="ptl" checked>
+                            <label for="ptlis1"></label>
+                            <img src="img/lisz.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis2" name="ptl">
+                            <label for="ptlis2"></label>
+                            <img src="img/lisa.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis3" name="ptl">
+                            <label for="ptlis3"></label>
+                            <img src="img/lisç.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis4" name="ptl">
+                            <label for="ptlis4"></label>
+                            <img src="img/lisl.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis5" name="ptl">
+                            <label for="ptlis5"></label>
+                            <img src="img/lisk.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis6" name="ptl">
+                            <label for="ptlis6"></label>
+                            <img src="img/lisj.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis7" name="ptl">
+                            <label for="ptlis7"></label>
+                            <img src="img/lisg.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis8" name="ptl">
+                            <label for="ptlis8"></label>
+                            <img src="img/lish.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis9" name="ptl">
+                            <label for="ptlis9"></label>
+                            <img src="img/lisf.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis10" name="ptl">
+                            <label for="ptlis10"></label>
+                            <img src="img/lisd.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis11" name="ptl">
+                            <label for="ptlis11"></label>
+                            <img src="img/liss.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="ptlis12" name="ptl">
+                            <label for="ptlis12"></label>
+                            <img src="img/lisx.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="lis">
+                        <li>
+                            <input type="radio" id="lis1" name="lbp" checked>
+                            <label for="lis1"></label>
+                            <img src="img/prtlu.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="lis2" name="lbp">
+                            <label for="lis2"></label>
+                            <img src="img/prtlq.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="lis3" name="lbp">
+                            <label for="lis3"></label>
+                            <img src="img/prtlw.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="lis4" name="lbp">
+                            <label for="lis4"></label>
+                            <img src="img/prtle.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="lis5" name="lbp">
+                            <label for="lis5"></label>
+                            <img src="img/prtlr.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="lis6" name="lbp">
+                            <label for="lis6"></label>
+                            <img src="img/prtlt.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="lis7" name="lud">
+                            <label for="lis7"></label>
+                            <img src="img/prtly.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="lis8" name="lbp">
+                            <label for="lis8"></label>
+                            <img src="img/prtl.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="lis9" name="lbp">
+                            <label for="lis9"></label>
+                            <img src="img/prtli.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="lis10" name="lbp">
+                            <label for="lis10"></label>
+                            <img src="img/prtlo.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="lis11" name="lbp">
+                            <label for="lis11"></label>
+                            <img src="img/prtlp.png" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 but">
+                <button>Ver Mais</button>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela13 text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>CARIBE</h3>
+                </div>
+                <div class="col-md-4">
+                    <form action="from">
+                        <div class="from-grupo">
+                            <label for="situacao"></label>
+                            <select id="dropdown" name="situacao" required>
+                                <option value="disable selected value">Hotel</option>
+                                <option value="job"><option value="job"></option></option>
+                                <option value="job"></option>
+                                <option value="job"></option>
+                                <option value="job"></option>
+                                <option value="job"></option>
+                                <option value="job"></option>
+                                <option value="job"></option>
+                                <option value="job"></option>
+                                <option value="job"></option>
+                                <option value="job"></option>
+                                <option value="job"></option>
+                                <option value="job">Mais opções</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="butt">
+                        <button>Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluit tela14 text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="crbres">
+                        <li>
+                            <input type="radio" id="crbres1" name="crrs" checked>
+                            <label for="crbres1"></label>
+                            <img src="img/crq.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres2" name="crrs">
+                            <label for="crbres2"></label>
+                            <img src="img/crt.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres3" name="crrs">
+                            <label for="crbres3"></label>
+                            <img src="img/cry.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres4" name="crrs">
+                            <label for="crbres4"></label>
+                            <img src="img/cru.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres5" name="crrs">
+                            <label for="crbres5"></label>
+                            <img src="img/cri.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres6" name="crrs">
+                            <label for="crbres6"></label>
+                            <img src="img/cro.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres7" name="crrs">
+                            <label for="crbres7"></label>
+                            <img src="img/crp.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres8" name="crrs">
+                            <label for="crbres8"></label>
+                            <img src="img/cra.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres9" name="crrs">
+                            <label for="crbres9"></label>
+                            <img src="img/cre.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres10" name="crrs">
+                            <label for="crbres10"></label>
+                            <img src="img/crw.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres11" name="crrs">
+                            <label for="crbres11"></label>
+                            <img src="img/crr.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="crbres12" name="crrs">
+                            <label for="crbres12"></label>
+                            <img src="img/cr.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="cbs">
+                        <li>
+                            <input type="radio" id="cbs1" name="ilcb" checked>
+                            <label for="cbs1"></label>
+                            <img src="img/icb.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs2" name="ilcb">
+                            <label for="cbs2"></label>
+                            <img src="img/icbq.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs3" name="ilcb">
+                            <label for="cbs3"></label>
+                            <img src="img/icbw.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs4" name="ilcb">
+                            <label for="cbs4"></label>
+                            <img src="img/icbe.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs5" name="ilcb">
+                            <label for="cbs5"></label>
+                            <img src="img/icbr.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs6" name="ilcb">
+                            <label for="cbs6"></label>
+                            <img src="img/icbt.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs7" name="ilcb">
+                            <label for="cbs7"></label>
+                            <img src="img/icby.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs8" name="ilcb">
+                            <label for="cbs8"></label>
+                            <img src="img/icbu.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs9" name="ilcb">
+                            <label for="cbs9"></label>
+                            <img src="img/icbi.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs10" name="ilcb">
+                            <label for="cbs10"></label>
+                            <img src="img/icbo.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs11" name="ilcb">
+                            <label for="cbs11"></label>
+                            <img src="img/icbp.png" />
+                        </li>
+                        <li>
+                            <input type="radio" id="cbs12" name="ilcb">
+                            <label for="cbs12"></label>
+                            <img src="img/icba.png" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 but">
+                <button>Ver Mais</button>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="tela15 text-center">
+        
+        </div>
+    </section>
+
+    <script src="script/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
