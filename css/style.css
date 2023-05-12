@@ -7,20 +7,12 @@ body{
     background-position: fixed;
     overflow-x: hidden;
 }
-.dados{
-    height: 40px;
-    background-color: black;
-    display: block;
-
-}
-
-.dados a{
-    color: white;
-    text-decoration: none;
-}
+ion-icon {
+    font-size: 34px;
+  }
 .menu{
     padding-left: 450px;
-    background-color: #002122;
+    background-color: #285252e7;
     padding-top: 5px;
 }
 .menu a{
@@ -29,10 +21,14 @@ body{
     text-align: center;
     color: white;
 }
+
+.btn .menu{
+    width: 50px;
+}
 .main{
     padding-right: -200px;
     width: 600px;
-    background-color: #043738;
+    background-color: #496d6d7f;
     border-radius: 5%;
     padding: 20px 25px 40px;
     padding-top: 15px;
@@ -40,7 +36,7 @@ body{
 }
 .from-grupo{
     padding: 10px;
-    border-radius: 12px;
+    border-radius: 15px;
     display: grid;
     flex-direction: column;
 }
@@ -56,9 +52,9 @@ button{
     width: 500px;
     height: 50px;
     margin: 5px auto;
-    border-radius: 2px;
-    background-color: #156568;
-    color: white;
+    border-radius: 10px;
+    background-color: #496d6d;
+    color: rgb(255, 255, 255);
     font-size: 1.2rem;
     cursor: pointer;
 }
@@ -72,9 +68,9 @@ button{
     padding-bottom: 50px;
 }
 .but button{
-    background-color: #156568;
+    background-color: #83bdbd;
     color: black;
-    width: 150px;
+    width: 180px;
     border-radius: 15px;
 }
 .butt button{
@@ -82,14 +78,14 @@ button{
     border-radius: 10px;
 }
 .tela1{
-    background-color: #043738;
+    background-color: #496d6dc6;
     padding: 30px;
 }
 .tela2{
     height: 300px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #12474762;
+    background-color: #496d6d5f;
 }
 .tela2 h2{
     padding-top: 100px;
@@ -98,13 +94,13 @@ button{
 }
 .tela3{
     padding-top: 10px;
-    background-color: #043738;
+    background-color: #496d6db6;
 }
 .tela4{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #12474762;
+    background-color: #496d6d5f;
 }
 .tela4 h3{
     padding-top: 80px;
@@ -115,7 +111,7 @@ button{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #12474762;
+    background-color: #496d6d5f;
 }
 .tela5 .from-grupo{
     padding-top: 70px;
@@ -130,13 +126,13 @@ button{
 }
 .tela6{
     padding-top: 10px;
-    background-color: #043738;
+    background-color: #496d6db6;
 }
 .tela7{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #12474762;
+    background-color: #496d6d5f;
 }
 .tela7 .from-grupo{
     padding-top: 70px;
@@ -151,13 +147,13 @@ button{
 }
 .tela8{
     padding-top: 10px;
-    background-color: #043738;
+    background-color: #496d6db6;
 }
 .tela9{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #12474762;
+    background-color: #496d6d5f;
 }
 .tela9 .from-grupo{
     padding-top: 70px;
@@ -172,13 +168,13 @@ button{
 }
 .tela10{
     padding-top: 10px;
-    background-color: #043738;
+    background-color: #496d6db6;
 }
 .tela11{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #12474762;
+    background-color: #496d6d5f;
 }
 .tela11 .from-grupo{
     padding-top: 70px;
@@ -193,13 +189,13 @@ button{
 }
 .tela12{
     padding-top: 10px;
-    background-color: #043738;
+    background-color: #496d6db6;
 }
 .tela13{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #12474762;
+    background-color: #496d6d5f;
 }
 .tela13 .from-grupo{
     padding-top: 70px;
@@ -214,17 +210,38 @@ button{
 }
 .tela14{
     padding-top: 10px;
-    background-color: #043738;
+    background-color: #496d6db6;
 }
-.tela15{
-    height: 50px;
+footer#rodape {
     padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: #002122;
+    margin-top: 0;
+    text-align: center;
+    background-color: #095555ec;
+    bottom: 0;
+    
+    
 }
-ion-icon {
+footer#rodape p#texto-rodape, a#github {
+    color: #000000;
+    padding-top: 5px;
+    margin: 0;
+    font-size: 11pt;
+    text-shadow: 0.5px 0.5px 0.5px;
+    transition: 0.5s;
+}
+footer#rodape  a#github:hover {
+    color: #000000;
+}
+i.fa {
+    padding: 0;
     font-size: 20px;
- }
+    color: #000000;
+    transition: 0.5s;
+}
+
+i.fa:hover{
+    color: #ffffff;
+}
 
 .slider {
     display: block;
@@ -251,7 +268,7 @@ ion-icon {
     display: none;
 }
 .slider label {
-    background-color: #000;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -308,7 +325,7 @@ ion-icon {
     display: none;
 }
 .sldr label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -366,7 +383,7 @@ ion-icon {
     display: none;
 }
 .sld label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -424,7 +441,7 @@ ion-icon {
     display: none;
 }
 .slr label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -497,7 +514,7 @@ ion-icon {
     display: none;
 }
 .ldr label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -561,7 +578,7 @@ ion-icon {
     display: none;
 }
 .uldr label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -640,7 +657,7 @@ ion-icon {
     display: none;
 }
 .hyl label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -719,7 +736,7 @@ ion-icon {
     display: none;
 }
 .ludr label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -798,7 +815,7 @@ ion-icon {
     display: none;
 }
 .ahyl label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -871,7 +888,7 @@ ion-icon {
     display: none;
 }
 .nyc label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -950,7 +967,7 @@ ion-icon {
     display: none;
 }
 .ptlis label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -1032,7 +1049,7 @@ ion-icon {
     display: none;
 }
 .lis label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -1111,7 +1128,7 @@ ion-icon {
     display: none;
 }
 .crbres label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -1194,7 +1211,7 @@ ion-icon {
     display: none;
 }
 .cbs label {
-    background-color: white;
+    background-color: #83bdbd;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -1250,3 +1267,16 @@ ion-icon {
     visibility: visible;
     z-index: 10;
 }
+.bg-dark{
+    background-color: #496d6d;
+}
+.butao{
+    width: 65px;
+    margin-bottom: 0px;
+    padding: 0px;
+    border-bottom: #496d6d;
+    border-top: #496d6d;
+    border-left: #496d6d;
+    border-right: #496d6d;
+}
+
