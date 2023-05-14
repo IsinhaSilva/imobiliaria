@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="img/logoImobi.png">
+    <link rel="icon" href="img/logo/paradiseonearth.png">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="js/bootstrap.js">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-dropdown-multilevel.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Douse</title>
+    <title>Paradise On Earth</title>
 </head>
 
 <body background="img/fundo.png">
@@ -22,47 +25,172 @@
         <a href="#"><i class="fa"><ion-icon name="logo-whatsapp"></ion-icon></i></a>
         <a href="#"><i class="fa"><ion-icon name="mail-outline"></ion-icon></i></a>
     </footer>
-    
+
     <section>
-        <div class="container-fluit menu">
+        <div class="container-fluid menu">
             <div class="row">
                 <div class="col-md-2 logomobi">
-                    <img style="margin-left: -100;" src="img/logoImobi.png" alt="" width="150" height="150">
+                    <img style="margin-left: -100;" src="img/logo/paradiseonearthLogo.png" alt="" width="85"
+                        height="85">
                 </div>
                 <div class="col-md-10">
                     <br>
                     <br>
                     <nav class="navbar navbar-expand-lg  ">
                         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-                          <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                              <a class="nav-link" href="#">INICIO <span class="sr-only">(página atual)</span></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">LOCAÇÃO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">ANUNCIAR</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">VENDAS</a>
-                              </li>
-                          </ul>
-                          <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Encontre a melhor opção para você" aria-label="Encontre a melhor opção para você">
-                            <button class="butao" type="submit"><ion-icon name="search-outline"></ion-icon></button>
-                          </form>
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">INICIO <span class="sr-only">(página atual)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">LOCAÇÃO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ANUNCIAR</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">VENDAS</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search"
+                                    placeholder="Encontre a melhor opção para você"
+                                    aria-label="Encontre a melhor opção para você">
+                                <button class="butao" type="submit"><ion-icon name="search-outline"></ion-icon></button>
+                            </form>
                         </div>
-                      </nav>
+                    </nav>
                 </div>
             </div>
         </div>
     </section>
 
     <section>
-        <div class="container-fluit tela1">
+        <div class="container-fluid main text-center">
             <div class="row">
-                <div class="col-md-6 ">
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="col-md">
+                        <div class="navbar-header">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Finalidades <b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu span10">
+                                <li><a href="#">Comprar</a></li>
+                                <li><a href="#">Vender</a></li>
+                                <li><a href="#">Alugar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="navbar-header">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tipo de propriedade <b class="caret"></b></a>
+                            <ul class="dropdown-menu span10">
+                                <li><a href="#">Apartamento</a></li>
+                                <li><a href="#">Casa</a></li>
+                                <li><a href="#">Galpao</a></li>
+                                <li><a href="#">Loja</a></li>
+                                <li><a href="#">Lote</a></li>
+                                <li><a href="#">Salao</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="navbar-header">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Número de quartos<b class="caret"></b></a>
+                            <ul class="dropdown-menu span10">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">Nenhum</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="navbar-header">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Número de Suites<b class="caret"></b></a>
+                            <ul class="dropdown-menu span10">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">Nenhum</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="navbar-header">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Número de Banheiros<b class="caret"></b></a>
+                            <ul class="dropdown-menu span10">
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="navbar-header">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Número de Lavaos<b class="caret"></b></a>
+                            <ul class="dropdown-menu span10">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="navbar-header">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Estados <b class="caret"></b></a>
+                            <ul class="dropdown-menu span10">
+                                <li><a href="#"> Acre (AC) </a></li>
+                                <li><a href="#"> Alagoas (AL) </a></li>
+                                <li><a href="#"> Amapá (AP) </a></li>
+                                <li><a href="#"> Amazonas (AM) </a></li>
+                                <li><a href="#"> Bahia (BA) </a></li>
+                                <li><a href="#"> Ceará (CE) </a></li>
+                                <li><a href="#"> Distrito Federal (DF) </a></li>
+                                <li><a href="#"> Espírito Santo (ES) </a></li>
+                                <li><a href="#"> Goiás (GO) </a></li>
+                                <li><a href="#"> Maranhão (MA) </a></li>
+                                <li><a href="#"> Mato Grosso (MT) </a></li>
+                                <li><a href="#"> Mato Grosso do Sul (MS) </a></li>
+                                <li><a href="#"> Minas Gerais (MG) </a></li>
+                                <li><a href="#"> Pará (PA) </a></li>
+                                <li><a href="#">Paraíba (PB)</a></li>
+                                <li><a href="#"> Paraná (PR) </a></li>
+                                <li><a href="#"> Pernambuco (PE) </a></li>
+                                <li><a href="#"> Piauí (PI) </a></li>
+                                <li><a href="#"> Rio de Janeiro (RJ) </a></li>
+                                <li><a href="#"> Rio Grande do Norte (RN) </a></li>
+                                <li><a href="#"> Rio Grande do Sul (RS) </a></li>
+                                <li><a href="#"> Rondônia (RO) </a></li>
+                                <li><a href="#"> Roraima (RR) </a></li>
+                                <li><a href="#"> Santa Catarina (SC) </a></li>
+                                <li><a href="#"> São Paulo (SP) </a></li>
+                                <li><a href="#"> Sergipe (SE) </a></li>
+                                <li><a href="#"> Tocantins (TO) </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid tela1">
+            <div class="row">
+                <div class="col-md ">
                     <ul class="slider">
                         <li>
                             <input type="radio" id="slide1" name="slide" checked>
@@ -86,142 +214,12 @@
                         </li>
                     </ul>
                 </div>
-
-                <div class="col-md-6">
-                    <div class="main">
-                        <form class="from">
-                            <div class="from-grupo">
-                                <label for="situacao">Finalidade</label>
-                                <select id="dropdown" name="situacao" required>
-                                    <option value="disable selected value">ESCOLHA</option>
-                                    <option value="student">Aluguel</option>
-                                    <option value="job">Vendas</option>
-                                </select>
-                            </div>
-                            <div class="from-grupo">
-                                <label for="situacao">Tipo de propriedade</label>
-                                <select id="dropdown" name="situacao" required>
-                                    <option value="disable selected value">ESCOLHA</option>
-                                    <option value="student">Apartamento</option>
-                                    <option value="job">Casa</option>
-                                    <option value="job">Galpao</option>
-                                    <option value="job">Loja</option>
-                                    <option value="job">Lote</option>
-                                    <option value="job">Sala</option>
-                                </select>
-                            </div>
-                            <div class="from-grupo">
-                                <label for="situacao">Número de Suites</label>
-                                <select id="dropdown" name="situacao" required>
-                                    <option value="disable selected value">ESCOLHA</option>
-                                    <option value="job">1</option>
-                                    <option value="job">2</option>
-                                    <option value="job">3</option>
-                                    <option value="job">4</option>
-                                    <option value="job">5</option>
-                                    <option value="job">Nenhumas</option>
-                                </select>
-                            </div>
-                            <div class="from-grupo">
-                                <label for="situacao">Número de quartos</label>
-                                <select id="dropdown" name="situacao" required>
-                                    <option value="disable selected value">ESCOLHA</option>
-                                    <option value="job">4</option>
-                                    <option value="job">5</option>
-                                    <option value="job">6</option>
-                                    <option value="job">7</option>
-                                    <option value="job">8</option>
-                                    <option value="job">Nenhumas</option>
-                                </select>
-                            </div>
-                            <div class="from-grupo">
-                                <label for="situacao">Número de Banheiros</label>
-                                <select id="dropdown" name="situacao" required>
-                                    <option value="disable selected value">ESCOLHA</option>
-                                    <option value="student">2</option>
-                                    <option value="job">3</option>
-                                    <option value="job">4</option>
-                                </select>
-                            </div>
-                            <div class="from-grupo">
-                                <label for="situacao">Número de Lavabos</label>
-                                <select id="dropdown" name="situacao" required>
-                                    <option value="disable selected value">ESCOLHA</option>
-                                    <option value="student">2</option>
-                                    <option value="job">3</option>
-                                    <option value="job">4</option>
-                                    <option value="job">5</option>
-                                    <option value="job">6</option>
-                                </select>
-                            </div>
-                            <div class="from-grupo">
-                                <label for="situacao">Escolha a cidade</label>
-                                <select id="dropdown" name="situacao" required>
-                                    <option value="disable selected value">ESCOLHA</option>
-                                    <option value="student">Belo Horizonte</option>
-                                    <option value="job">Montes Claros</option>
-                                    <option value="job">Uberaba</option>
-                                    <option value="job">Juiz de Fora</option>
-                                    <option value="job">Uberlândia</option>
-                                    <option value="job">Betim</option>
-                                    <option value="job">Angelândia</option>
-                                    <option value="job">Ribeirão das Neves</option>
-                                    <option value="job">Contagem</option>
-                                    <option value="job">Governador Valadares</option>
-                                    <option value="job">Ipatinga</option>
-                                    <option value="job">Conselheiro Lafaiete</option>
-                                    <option value="job">Ouro Preto</option>
-                                    <option value="job">Mariana</option>
-                                    <option value="job">Poços de Caldas</option>
-                                    <option value="job">Além Paraíba</option>
-                                    <option value="job">Congonhas</option>
-                                    <option value="job">Divinópolis</option>
-                                    <option value="job">Pará de Minas</option>
-                                    <option value="job">Araxá</option>
-                                    <option value="job">Águas Vermelhas</option>
-                                    <option value="job">Nova Serrana</option>
-                                    <option value="job">Itajubá</option>
-                                    <option value="job">João Pinheiro</option>
-                                    <option value="job">Passos</option>
-                                    <option value="job">Pouso Alegre</option>
-                                    <option value="job">Alvinópolis</option>
-                                    <option value="job">Patrocínio</option>
-                                    <option value="job">Alto Rio Doce</option>
-                                    <option value="job">Lagoa Santa</option>
-                                    <option value="job">Antônio Carlos</option>
-                                    <option value="job">Muriaé</option>
-                                    <option value="job">Água Comprida</option>
-                                    <option value="job">Araguari</option>
-                                    <option value="job">Diamantina</option>
-                                    <option value="job">Sete Lagoas</option>
-                                    <option value="job">Águas Formosas</option>
-                                    <option value="job">Jaíba</option>
-                                    <option value="job">Arceburgo</option>
-                                    <option value="job">Arcos</option>
-                                    <option value="job">Acaiaca</option>
-                                    <option value="job">Areado</option>
-                                    <option value="job">Almenara</option>
-                                    <option value="job">Alfenas</option>
-                                    <option value="job">Andradas</option>
-                                    <option value="job">Camanducaia</option>
-                                    <option value="job">Alvorada de Minas</option>
-                                    <option value="job">Arinos</option>
-                                    <option value="job">Abaeté</option>
-                                    <option value="job">Juramento</option>
-                                </select>
-                                <div class="from-grupo">
-                                    <button>Buscar</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
     <section>
-        <div class="container-fluit tela2">
+        <div class="container-fluid tela2">
             <div class="row">
                 <div class="col-md-6 text-center">
                     <h2>
@@ -243,7 +241,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela3">
+        <div class="container-fluid tela3">
             <div class="row">
                 <div class="col-md-4">
                     <ul class="sldr">
@@ -348,7 +346,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela4">
+        <div class="container-fluid tela4">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h3>
@@ -364,7 +362,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela5 text-center">
+        <div class="container-fluid tela5 text-center">
             <div class="row">
                 <div class="col-md-4">
                     <h3>MALDIVAS</h3>
@@ -401,7 +399,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela6 text-center">
+        <div class="container-fluid tela6 text-center">
             <div class="row">
 
                 <div class="col-md-6">
@@ -505,7 +503,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela7 text-center">
+        <div class="container-fluid tela7 text-center">
             <div class="row">
                 <div class="col-md-4">
                     <h3>JAPÃO</h3>
@@ -542,7 +540,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela8 text-center">
+        <div class="container-fluid tela8 text-center">
             <div class="row">
                 <div class="col-md-6">
                     <ul class="hyl">
@@ -670,7 +668,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela9 text-center">
+        <div class="container-fluid tela9 text-center">
             <div class="row">
                 <div class="col-md-4">
                     <h3>NEW YORK</h3>
@@ -707,7 +705,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela10 text-center">
+        <div class="container-fluid tela10 text-center">
             <div class="row">
                 <div class="col-md-6">
                     <ul class="ahyl">
@@ -825,7 +823,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela11 text-center">
+        <div class="container-fluid tela11 text-center">
             <div class="row">
                 <div class="col-md-4">
                     <h3>PORTUGAL</h3>
@@ -864,7 +862,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela12 text-center">
+        <div class="container-fluid tela12 text-center">
             <div class="row">
                 <div class="col-md-6">
                     <ul class="ptlis">
@@ -997,7 +995,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela13 text-center">
+        <div class="container-fluid tela13 text-center">
             <div class="row">
                 <div class="col-md-4">
                     <h3>CARIBE</h3>
@@ -1036,7 +1034,7 @@
     </section>
 
     <section>
-        <div class="container-fluit tela14 text-center">
+        <div class="container-fluid tela14 text-center">
             <div class="row">
                 <div class="col-md-6">
                     <ul class="crbres">
@@ -1173,17 +1171,25 @@
         </div>
     </section>
 
-        <footer id="rodape">
-            <br>
-            <a href="#"><i class="fa"><ion-icon name="logo-facebook"></ion-icon></i></a>
-            <a href="#"><i class="fa"><ion-icon name="logo-instagram"></ion-icon></i></a>
-            <a href="#"><i class="fa"><ion-icon name="logo-tiktok"></ion-icon></i></a>
-            <a href="#"><i class="fa"><ion-icon name="logo-whatsapp"></ion-icon></i></a>
-            <a href="#"><i class="fa"><ion-icon name="mail-outline"></ion-icon></i></a>
-        </footer>
+    <footer id="rodape">
+        <br>
+        <a href="#"><i class="fa"><ion-icon name="logo-facebook"></ion-icon></i></a>
+        <a href="#"><i class="fa"><ion-icon name="logo-instagram"></ion-icon></i></a>
+        <a href="#"><i class="fa"><ion-icon name="logo-tiktok"></ion-icon></i></a>
+        <a href="#"><i class="fa"><ion-icon name="logo-whatsapp"></ion-icon></i></a>
+        <a href="#"><i class="fa"><ion-icon name="mail-outline"></ion-icon></i></a>
+    </footer>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <script src="script/script.js"></script>
-
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

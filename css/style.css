@@ -8,52 +8,43 @@ body{
     overflow-x: hidden;
 }
 ion-icon {
-    font-size: 34px;
+    font-size: 20px;
   }
 .menu{
-    padding-left: 450px;
-    background-color: #285252e7;
-    padding-top: 5px;
+    padding-left: 10px;
+    background-color: black;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+.menu .logomobi{
+    padding-top: 12px;
+    padding-left: 55px;
+    padding-right: 30px;
 }
 .menu a{
-    padding-bottom: 0px;
+    padding-bottom: 2px;
     font-size: 1rem;
     text-align: center;
-    color: white;
+    color: #d89314;
 }
 
 .btn .menu{
     width: 50px;
 }
 .main{
-    padding-right: -200px;
     width: 600px;
-    background-color: #496d6d7f;
-    border-radius: 5%;
-    padding: 20px 25px 40px;
+    background-color: #413f3f;
     padding-top: 15px;
-    flex-direction: column;
 }
-.from-grupo{
-    padding: 10px;
-    border-radius: 15px;
-    display: grid;
-    flex-direction: column;
-}
-.from-grupo label{
-    color: white;
-}
-.from-btn{
-    padding: auto;
-    border-radius: 15px;
-    padding-bottom: 15px;
+.main a{
+    color: #d89314;
 }
 button{
     width: 500px;
     height: 50px;
     margin: 5px auto;
     border-radius: 10px;
-    background-color: #496d6d;
+    background-color: #d89314;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     cursor: pointer;
@@ -68,7 +59,7 @@ button{
     padding-bottom: 50px;
 }
 .but button{
-    background-color: #83bdbd;
+    background-color: #d89314;
     color: black;
     width: 180px;
     border-radius: 15px;
@@ -78,14 +69,14 @@ button{
     border-radius: 10px;
 }
 .tela1{
-    background-color: #496d6dc6;
+    background-color: #413f3f;
     padding: 30px;
 }
 .tela2{
     height: 300px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #496d6d5f;
+    background-color: #000000d7;
 }
 .tela2 h2{
     padding-top: 100px;
@@ -94,13 +85,13 @@ button{
 }
 .tela3{
     padding-top: 10px;
-    background-color: #496d6db6;
+    background-color: #413f3f;
 }
 .tela4{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #496d6d5f;
+    background-color: #000000d7;
 }
 .tela4 h3{
     padding-top: 80px;
@@ -111,7 +102,7 @@ button{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #496d6d5f;
+    background-color: #000000d7;
 }
 .tela5 .from-grupo{
     padding-top: 70px;
@@ -126,13 +117,13 @@ button{
 }
 .tela6{
     padding-top: 10px;
-    background-color: #496d6db6;
+    background-color: #413f3f;
 }
 .tela7{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #496d6d5f;
+    background-color: #000000d7;
 }
 .tela7 .from-grupo{
     padding-top: 70px;
@@ -147,13 +138,13 @@ button{
 }
 .tela8{
     padding-top: 10px;
-    background-color: #496d6db6;
+    background-color: #413f3f;
 }
 .tela9{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #496d6d5f;
+    background-color: #000000d7;
 }
 .tela9 .from-grupo{
     padding-top: 70px;
@@ -168,13 +159,13 @@ button{
 }
 .tela10{
     padding-top: 10px;
-    background-color: #496d6db6;
+    background-color: #413f3f;
 }
 .tela11{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #496d6d5f;
+    background-color: #000000d7;
 }
 .tela11 .from-grupo{
     padding-top: 70px;
@@ -189,13 +180,13 @@ button{
 }
 .tela12{
     padding-top: 10px;
-    background-color: #496d6db6;
+    background-color: #413f3f;
 }
 .tela13{
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #496d6d5f;
+    background-color: #000000d7;
 }
 .tela13 .from-grupo{
     padding-top: 70px;
@@ -210,19 +201,20 @@ button{
 }
 .tela14{
     padding-top: 10px;
-    background-color: #496d6db6;
+    background-color: #413f3f;
 }
 footer#rodape {
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     margin-top: 0;
+    margin-bottom: 0%;
     text-align: center;
-    background-color: #095555ec;
+    background-color: #000000d7;
     bottom: 0;
     
     
 }
 footer#rodape p#texto-rodape, a#github {
-    color: #000000;
+    color: #f8f7f7;
     padding-top: 5px;
     margin: 0;
     font-size: 11pt;
@@ -230,17 +222,17 @@ footer#rodape p#texto-rodape, a#github {
     transition: 0.5s;
 }
 footer#rodape  a#github:hover {
-    color: #000000;
+    color: #f7f2f2;
 }
 i.fa {
     padding: 0;
     font-size: 20px;
-    color: #000000;
+    color: #d89314;
     transition: 0.5s;
 }
 
 i.fa:hover{
-    color: #ffffff;
+    color: #f7f2f2;
 }
 
 .slider {
@@ -268,7 +260,7 @@ i.fa:hover{
     display: none;
 }
 .slider label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -325,7 +317,7 @@ i.fa:hover{
     display: none;
 }
 .sldr label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -383,7 +375,7 @@ i.fa:hover{
     display: none;
 }
 .sld label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -441,7 +433,7 @@ i.fa:hover{
     display: none;
 }
 .slr label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -514,7 +506,7 @@ i.fa:hover{
     display: none;
 }
 .ldr label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -578,7 +570,7 @@ i.fa:hover{
     display: none;
 }
 .uldr label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -657,7 +649,7 @@ i.fa:hover{
     display: none;
 }
 .hyl label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -736,7 +728,7 @@ i.fa:hover{
     display: none;
 }
 .ludr label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -815,7 +807,7 @@ i.fa:hover{
     display: none;
 }
 .ahyl label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -888,7 +880,7 @@ i.fa:hover{
     display: none;
 }
 .nyc label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -967,7 +959,7 @@ i.fa:hover{
     display: none;
 }
 .ptlis label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -1049,7 +1041,7 @@ i.fa:hover{
     display: none;
 }
 .lis label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -1128,7 +1120,7 @@ i.fa:hover{
     display: none;
 }
 .crbres label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -1211,7 +1203,7 @@ i.fa:hover{
     display: none;
 }
 .cbs label {
-    background-color: #83bdbd;
+    background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
     display: block;
