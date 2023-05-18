@@ -28,17 +28,15 @@ ion-icon {
     color: #d89314;
 }
 
-.btn .menu{
-    width: 50px;
-}
 .main{
     width: 600px;
-    background-color: #413f3f;
+    background-color: #000000d7;
     padding-top: 15px;
 }
 .main a{
     color: #d89314;
 }
+
 button{
     width: 500px;
     height: 50px;
@@ -49,14 +47,13 @@ button{
     font-size: 1.2rem;
     cursor: pointer;
 }
-.butmain{
-    padding-top: 70px;
-}
-.butmain button{
+.menu button{
+    height: 40px;
     width: 50px;
+    border-radius: 5px;
 }
-.but{
-    padding-bottom: 50px;
+.menu button ion-icon {
+    font-size: 32px;
 }
 .but button{
     background-color: #d89314;
@@ -70,7 +67,7 @@ button{
 }
 .tela1{
     background-color: #413f3f;
-    padding: 30px;
+    height: 650px;
 }
 .tela2{
     height: 300px;
@@ -85,6 +82,7 @@ button{
 }
 .tela3{
     padding-top: 10px;
+    height: 450px;
     background-color: #413f3f;
 }
 .tela4{
@@ -116,8 +114,12 @@ button{
     font-size: 2.5rem;
 }
 .tela6{
+    height: 550px;
     padding-top: 10px;
     background-color: #413f3f;
+}
+.tela6 .but{
+    margin-top: -250px;
 }
 .tela7{
     height: 200px;
@@ -138,7 +140,11 @@ button{
 }
 .tela8{
     padding-top: 10px;
-    background-color: #413f3f;
+    background-color: #413f3f;    
+    height: 550px;
+}
+.tela8 .but{
+    margin-top: -250px;
 }
 .tela9{
     height: 200px;
@@ -160,6 +166,10 @@ button{
 .tela10{
     padding-top: 10px;
     background-color: #413f3f;
+    height: 550px;
+}
+.tela10 .but{
+    margin-top: -250px;
 }
 .tela11{
     height: 200px;
@@ -181,6 +191,10 @@ button{
 .tela12{
     padding-top: 10px;
     background-color: #413f3f;
+    height: 550px;
+}
+.tela12 .but{
+    margin-top: -250px;
 }
 .tela13{
     height: 200px;
@@ -202,6 +216,10 @@ button{
 .tela14{
     padding-top: 10px;
     background-color: #413f3f;
+    height: 550px;
+}
+.tela14 .but{
+    margin-top: -250px;
 }
 footer#rodape {
     padding-bottom: 2px;
@@ -237,10 +255,10 @@ i.fa:hover{
 
 .slider {
     display: block;
-    height: 600px;
-    width: 600px;
+    height: 900px;
+    width: 900px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 35px;
     position: relative;
 }
 .slider li {
@@ -250,7 +268,7 @@ i.fa:hover{
 .slider img {
     margin-right: 15px;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
     margin: auto;
     height: 100%;
     width: 100%;
@@ -279,7 +297,7 @@ i.fa:hover{
     left: 70px;
 }
 .slider li:nth-child(4) label {
-    left: 110px;
+    left: 100px;
 }
 .slider img {
     margin-top: 40px;
@@ -298,8 +316,8 @@ i.fa:hover{
     height: 600px;
     width: 600px;
     margin: auto;
-    margin-top: 80px;
-    position: relative;
+    position: relative;    
+
 }
 .sldr li {
     list-style: none;
@@ -336,11 +354,12 @@ i.fa:hover{
     left: 70px;
 }
 .sldr li:nth-child(4) label {
-    left: 110px;
+    left: 100px;
 }
 .sldr img {
     margin-right: 15px;
     margin-left: 5px;
+    margin-top: 30px;
     opacity: 0;
     visibility: hidden;
 }
@@ -394,11 +413,12 @@ i.fa:hover{
     left: 70px;
 }
 .sld li:nth-child(4) label {
-    left: 110px;
+    left: 100px;
 }
 .sld img {
     margin-right: 15px;
     margin-left: 5px;
+    margin-top: -45px;
     opacity: 0;
     visibility: hidden;
 }
@@ -455,10 +475,10 @@ i.fa:hover{
     left: 110px;
 }
 .slr li:nth-child(5) label {
-    left: 140px;
+    left: 130px;
 }
 .slr li:nth-child(6) label {
-    left: 170px;
+    left: 160px;
 }
 .slr li:nth-child(7) label {
     left: 200px;
@@ -472,6 +492,7 @@ i.fa:hover{
 .slr img {
     margin-right: 15px;
     margin-left: 5px;
+    margin-top: -45px;
     opacity: 0;
     visibility: hidden;
 }
@@ -481,7 +502,7 @@ i.fa:hover{
     z-index: 10;
 }
 
-.ldr {
+.maldivasBB {
     display: block;
     height: 600px;
     width: 600px;
@@ -489,11 +510,11 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
-.ldr li {
+.maldivasBB li {
     list-style: none;
     position: absolute;
 }
-.ldr img {
+.maldivasBB img {
     margin-right: 15px;
     margin-left: 15px;
     margin-top: 15px;
@@ -502,10 +523,10 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
-.ldr input {
+.maldivasBB input {
     display: none;
 }
-.ldr label {
+.maldivasBB label {
     background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
@@ -515,37 +536,36 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
-.ldr li:nth-child(1) label {
+.maldivasBB li:nth-child(1) label {
     left: 10px;
 }
-.ldr li:nth-child(2) label {
+.maldivasBB li:nth-child(2) label {
     left: 40px;
 }
-.ldr li:nth-child(3) label {
+.maldivasBB li:nth-child(3) label {
     left: 70px;
 }
-.ldr li:nth-child(4) label {
-    left: 110px;
+.maldivasBB li:nth-child(4) label {
+    left: 100px;
 }
-.ldr li:nth-child(5) label {
-    left: 140px;
+.maldivasBB li:nth-child(5) label {
+    left: 130px;
 }
-.ldr li:nth-child(6) label {
-    left: 170px;
-}
-.ldr img {
+
+.maldivasBB img {
     margin-right: 15px;
+    margin-top: -50px;
     margin-left: 5px;
     opacity: 0;
     visibility: hidden;
 }
-.ldr li input:checked ~ img {
+.maldivasBB li input:checked ~ img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
 }
 
-.uldr {
+.maldivasMA {
     display: block;
     height: 600px;
     width: 600px;
@@ -553,23 +573,23 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
-.uldr li {
+.maldivasMA li {
     list-style: none;
     position: absolute;
 }
-.uldr img {
+.maldivasMA img {
     margin-right: 15px;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin: auto;
     height: 100%;
     width: 100%;
     vertical-align: top;
 }
-.uldr input {
+.maldivasMA input {
     display: none;
 }
-.uldr label {
+.maldivasMA label {
     background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
@@ -579,52 +599,44 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
-.uldr li:nth-child(1) label {
+.maldivasMA li:nth-child(1) label {
     left: 10px;
 }
-.uldr li:nth-child(2) label {
+.maldivasMA li:nth-child(2) label {
     left: 40px;
 }
-.uldr li:nth-child(3) label {
+.maldivasMA li:nth-child(3) label {
     left: 70px;
 }
-.uldr li:nth-child(4) label {
-    left: 110px;
+.maldivasMA li:nth-child(4) label {
+    left: 100px;
 }
-.uldr li:nth-child(5) label {
-    left: 140px;
+.maldivasMA li:nth-child(5) label {
+    left: 130px;
 }
-.uldr li:nth-child(6) label {
-    left: 170px;
+.maldivasMA li:nth-child(6) label {
+    left: 160px;
 }
-.uldr li:nth-child(7) label {
-    left: 200px;
+.maldivasMA li:nth-child(7) label {
+    left: 190px;
 }
-.uldr li:nth-child(8) label {
-    left: 230px;
+.maldivasMA li:nth-child(8) label {
+    left: 220px;
 }
-.uldr li:nth-child(9) label {
-    left: 260px;
-}
-.uldr li:nth-child(10) label {
-    left: 290px;
-}
-.uldr li:nth-child(11) label {
-    left: 320px;
-}
-.uldr img {
+.maldivasMA img {
     margin-right: 15px;
     margin-left: 5px;
     opacity: 0;
     visibility: hidden;
+    margin-top: -50px;
 }
-.uldr li input:checked ~ img {
+.maldivasMA li input:checked ~ img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
 }
 
-.hyl {
+.maldivasVV {
     display: block;
     height: 600px;
     width: 600px;
@@ -632,11 +644,11 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
-.hyl li {
+.maldivasVV li {
     list-style: none;
     position: absolute;
 }
-.hyl img {
+.maldivasVV img {
     margin-right: 15px;
     margin-left: 15px;
     margin-top: 15px;
@@ -645,10 +657,10 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
-.hyl input {
+.maldivasVV input {
     display: none;
 }
-.hyl label {
+.maldivasVV label {
     background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
@@ -658,52 +670,47 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
-.hyl li:nth-child(1) label {
+.maldivasVV li:nth-child(1) label {
     left: 10px;
 }
-.hyl li:nth-child(2) label {
+.maldivasVV li:nth-child(2) label {
     left: 40px;
 }
-.hyl li:nth-child(3) label {
+.maldivasVV li:nth-child(3) label {
     left: 70px;
 }
-.hyl li:nth-child(4) label {
-    left: 110px;
+.maldivasVV li:nth-child(4) label {
+    left: 100px;
 }
-.hyl li:nth-child(5) label {
-    left: 140px;
+.maldivasVV li:nth-child(5) label {
+    left: 130px;
 }
-.hyl li:nth-child(6) label {
-    left: 170px;
+.maldivasVV li:nth-child(6) label {
+    left: 160px;
 }
-.hyl li:nth-child(7) label {
-    left: 200px;
+.maldivasVV li:nth-child(7) label {
+    left: 190px;
 }
-.hyl li:nth-child(8) label {
-    left: 230px;
+.maldivasVV li:nth-child(8) label {
+    left: 220px;
 }
-.hyl li:nth-child(9) label {
-    left: 260px;
+.maldivasVV li:nth-child(9) label {
+    left: 250px;
 }
-.hyl li:nth-child(10) label {
-    left: 290px;
-}
-.hyl li:nth-child(11) label {
-    left: 320px;
-}
-.hyl img {
+.maldivasVV img {
     margin-right: 15px;
     margin-left: 5px;
     opacity: 0;
     visibility: hidden;
+    margin-top: -50px;
 }
-.hyl li input:checked ~ img {
+.maldivasVV li input:checked ~ img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
 }
 
-.ludr {
+.japaoBD {
     display: block;
     height: 600px;
     width: 600px;
@@ -711,11 +718,11 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
-.ludr li {
+.japaoBD li {
     list-style: none;
     position: absolute;
 }
-.ludr img {
+.japaoBD img {
     margin-right: 15px;
     margin-left: 15px;
     margin-top: 15px;
@@ -724,10 +731,10 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
-.ludr input {
+.japaoBD input {
     display: none;
 }
-.ludr label {
+.japaoBD label {
     background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
@@ -737,46 +744,167 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
-.ludr li:nth-child(1) label {
+.japaoBD li:nth-child(1) label {
     left: 10px;
 }
-.ludr li:nth-child(2) label {
+.japaoBD li:nth-child(2) label {
     left: 40px;
 }
-.ludr li:nth-child(3) label {
+.japaoBD li:nth-child(3) label {
     left: 70px;
 }
-.ludr li:nth-child(4) label {
-    left: 110px;
+.japaoBD li:nth-child(4) label {
+    left: 100px;
 }
-.ludr li:nth-child(5) label {
-    left: 140px;
+.japaoBD li:nth-child(5) label {
+    left: 130px;
 }
-.ludr li:nth-child(6) label {
-    left: 170px;
+.japaoBD li:nth-child(6) label {
+    left: 160px;
 }
-.ludr li:nth-child(7) label {
-    left: 200px;
+.japaoBD img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    margin-top: -50px;
+    visibility: hidden;
 }
-.ludr li:nth-child(8) label {
-    left: 230px;
+.japaoBD li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
 }
-.ludr li:nth-child(9) label {
-    left: 260px;
+
+.japaoCS {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
 }
-.ludr li:nth-child(10) label {
-    left: 290px;
+.japaoCS li {
+    list-style: none;
+    position: absolute;
 }
-.ludr li:nth-child(11) label {
-    left: 320px;
+.japaoCS img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
 }
-.ludr img {
+.japaoCS input {
+    display: none;
+}
+.japaoCS label {
+    background-color: #d3a31fc7;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.japaoCS li:nth-child(1) label {
+    left: 10px;
+}
+.japaoCS li:nth-child(2) label {
+    left: 40px;
+}
+.japaoCS li:nth-child(3) label {
+    left: 70px;
+}
+.japaoCS li:nth-child(4) label {
+    left: 100px;
+}
+.japaoCS li:nth-child(5) label {
+    left: 130px;
+}
+.japaoCS li:nth-child(6) label {
+    left: 160px;
+}
+.japaoCS li:nth-child(7) label {
+    left: 190px;
+}
+.japaoCS img {
     margin-right: 15px;
     margin-left: 5px;
     opacity: 0;
     visibility: hidden;
+    margin-top: -50px;
+
 }
-.ludr li input:checked ~ img {
+.japaoCS li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.aludr {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.aludr li {
+    list-style: none;
+    position: absolute;
+}
+.aludr img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.aludr input {
+    display: none;
+}
+.aludr label {
+    background-color: #d3a31fc7;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.aludr li:nth-child(1) label {
+    left: 10px;
+}
+.aludr li:nth-child(2) label {
+    left: 40px;
+}
+.aludr li:nth-child(3) label {
+    left: 70px;
+}
+.aludr li:nth-child(4) label {
+    left: 100px;
+}
+.aludr li:nth-child(5) label {
+    left: 130px;
+}
+.aludr li:nth-child(6) label {
+    left: 160px;
+}
+.aludr img {
+    margin-right: 15px;
+    margin-left: 5px;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -50px;
+
+}
+.aludr li input:checked ~ img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -826,13 +954,13 @@ i.fa:hover{
     left: 70px;
 }
 .ahyl li:nth-child(4) label {
-    left: 110px;
+    left: 100px;
 }
 .ahyl li:nth-child(5) label {
-    left: 140px;
+    left: 130px;
 }
 .ahyl li:nth-child(6) label {
-    left: 170px;
+    left: 160px;
 }
 .ahyl li:nth-child(7) label {
     left: 200px;
@@ -846,6 +974,7 @@ i.fa:hover{
 .ahyl img {
     margin-right: 15px;
     margin-left: 5px;
+    margin-top: -50px;
     opacity: 0;
     visibility: hidden;
 }
@@ -899,13 +1028,13 @@ i.fa:hover{
     left: 70px;
 }
 .nyc li:nth-child(4) label {
-    left: 110px;
+    left: 100px;
 }
 .nyc li:nth-child(5) label {
-    left: 140px;
+    left: 130px;
 }
 .nyc li:nth-child(6) label {
-    left: 170px;
+    left: 160px;
 }
 .nyc li:nth-child(7) label {
     left: 200px;
@@ -925,6 +1054,7 @@ i.fa:hover{
 .nyc img {
     margin-right: 15px;
     margin-left: 5px;
+    margin-top: -50px;
     opacity: 0;
     visibility: hidden;
 }
@@ -978,13 +1108,13 @@ i.fa:hover{
     left: 70px;
 }
 .ptlis li:nth-child(4) label {
-    left: 110px;
+    left: 100px;
 }
 .ptlis li:nth-child(5) label {
-    left: 140px;
+    left: 130px;
 }
 .ptlis li:nth-child(6) label {
-    left: 170px;
+    left: 160px;
 }
 .ptlis li:nth-child(7) label {
     left: 200px;
@@ -1007,6 +1137,7 @@ i.fa:hover{
 .ptlis img {
     margin-right: 15px;
     margin-left: 5px;
+    margin-top: -50px;
     opacity: 0;
     visibility: hidden;
 }
@@ -1060,13 +1191,13 @@ i.fa:hover{
     left: 70px;
 }
 .lis li:nth-child(4) label {
-    left: 110px;
+    left: 100px;
 }
 .lis li:nth-child(5) label {
-    left: 140px;
+    left: 130px;
 }
 .lis li:nth-child(6) label {
-    left: 170px;
+    left: 160px;
 }
 .lis li:nth-child(7) label {
     left: 200px;
@@ -1086,6 +1217,7 @@ i.fa:hover{
 .lis img {
     margin-right: 15px;
     margin-left: 5px;
+    margin-top: -50px;
     opacity: 0;
     visibility: hidden;
 }
@@ -1139,13 +1271,13 @@ i.fa:hover{
     left: 70px;
 }
 .crbres li:nth-child(4) label {
-    left: 110px;
+    left: 100px;
 }
 .crbres li:nth-child(5) label {
-    left: 140px;
+    left: 130px;
 }
 .crbres li:nth-child(6) label {
-    left: 170px;
+    left: 160px;
 }
 .crbres li:nth-child(7) label {
     left: 200px;
@@ -1168,6 +1300,7 @@ i.fa:hover{
 .crbres img {
     margin-right: 15px;
     margin-left: 5px;
+    margin-top: -50px;
     opacity: 0;
     visibility: hidden;
 }
@@ -1222,13 +1355,13 @@ i.fa:hover{
     left: 70px;
 }
 .cbs li:nth-child(4) label {
-    left: 110px;
+    left: 100px;
 }
 .cbs li:nth-child(5) label {
-    left: 140px;
+    left: 130px;
 }
 .cbs li:nth-child(6) label {
-    left: 170px;
+    left: 160px;
 }
 .cbs li:nth-child(7) label {
     left: 200px;
@@ -1250,6 +1383,7 @@ i.fa:hover{
 }
 .cbs img {
     margin-right: 15px;
+    margin-top: -50px;
     margin-left: 5px;
     opacity: 0;
     visibility: hidden;
@@ -1262,13 +1396,5 @@ i.fa:hover{
 .bg-dark{
     background-color: #496d6d;
 }
-.butao{
-    width: 65px;
-    margin-bottom: 0px;
-    padding: 0px;
-    border-bottom: #496d6d;
-    border-top: #496d6d;
-    border-left: #496d6d;
-    border-right: #496d6d;
-}
+
 
