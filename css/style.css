@@ -1,4 +1,4 @@
-body{
+body {
     min-width: 1000px;
     background-attachment: fixed;
     background-position: center;
@@ -7,37 +7,42 @@ body{
     background-position: fixed;
     overflow-x: hidden;
 }
+
 ion-icon {
     font-size: 20px;
-  }
-.menu{
+}
+
+.menu {
     padding-left: 10px;
     background-color: black;
     padding-top: 2px;
     padding-bottom: 1px;
 }
-.menu .logomobi{
+
+.menu .logomobi {
     padding-top: 12px;
     padding-left: 55px;
     padding-right: 30px;
 }
-.menu a{
+
+.menu a {
     padding-bottom: 2px;
     font-size: 1rem;
     text-align: center;
     color: #d89314;
 }
 
-.main{
+.main {
     width: 600px;
     background-color: #000000d7;
     padding-top: 15px;
 }
-.main a{
+
+.main a {
     color: #d89314;
 }
 
-button{
+button {
     width: 500px;
     height: 50px;
     margin: 5px auto;
@@ -47,180 +52,221 @@ button{
     font-size: 1.2rem;
     cursor: pointer;
 }
-.menu button{
+
+.menu button {
     height: 40px;
     width: 50px;
     border-radius: 5px;
 }
+
 .menu button ion-icon {
     font-size: 32px;
 }
-.but button{
+
+.but button {
     background-color: #d89314;
     color: black;
     width: 180px;
     border-radius: 15px;
 }
-.butt button{
+
+.butt button {
     width: 200px;
     border-radius: 10px;
 }
-.tela1{
+
+.tela1 {
     background-color: #413f3f;
     height: 650px;
 }
-.tela2{
+
+.tela2 {
     height: 300px;
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: #000000d7;
 }
-.tela2 h2{
+
+.tela2 h2 {
     padding-top: 100px;
     font-size: 1.5rem;
     color: white;
 }
-.tela3{
+
+.tela3 {
     padding-top: 10px;
     height: 450px;
     background-color: #413f3f;
 }
-.tela4{
+
+.tela4 {
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: #000000d7;
 }
-.tela4 h3{
+
+.tela4 h3 {
     padding-top: 80px;
     font-size: 1.5rem;
     color: white;
 }
-.tela5{
+
+.tela5 {
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: #000000d7;
 }
-.tela5 .from-grupo{
+
+.tela5 .from-grupo {
     padding-top: 70px;
 }
-.tela5 .butt{
+
+.tela5 .butt {
     padding-top: 70px;
 }
-.tela5 h3{
+
+.tela5 h3 {
     padding-top: 70px;
     color: white;
     font-size: 2.5rem;
 }
-.tela6{
+
+.tela6 {
     height: 550px;
     padding-top: 10px;
     background-color: #413f3f;
 }
-.tela6 .but{
+
+.tela6 .but {
     margin-top: -250px;
 }
-.tela7{
+
+.tela7 {
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: #000000d7;
 }
-.tela7 .from-grupo{
+
+.tela7 .from-grupo {
     padding-top: 70px;
 }
-.tela7 .butt{
+
+.tela7 .butt {
     padding-top: 70px;
 }
-.tela7 h3{
-    padding-top: 70px;
-    color: white;
-    font-size: 2.5rem;
-}
-.tela8{
-    padding-top: 10px;
-    background-color: #413f3f;    
-    height: 550px;
-}
-.tela8 .but{
-    margin-top: -250px;
-}
-.tela9{
-    height: 200px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: #000000d7;
-}
-.tela9 .from-grupo{
-    padding-top: 70px;
-}
-.tela9 .butt{
-    padding-top: 70px;
-}
-.tela9 h3{
+
+.tela7 h3 {
     padding-top: 70px;
     color: white;
     font-size: 2.5rem;
 }
-.tela10{
+
+.tela8 {
     padding-top: 10px;
     background-color: #413f3f;
     height: 550px;
 }
-.tela10 .but{
+
+.tela8 .but {
     margin-top: -250px;
 }
-.tela11{
+
+.tela9 {
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: #000000d7;
 }
-.tela11 .from-grupo{
+
+.tela9 .from-grupo {
     padding-top: 70px;
 }
-.tela11 .butt{
+
+.tela9 .butt {
     padding-top: 70px;
 }
-.tela11 h3{
+
+.tela9 h3 {
     padding-top: 70px;
     color: white;
     font-size: 2.5rem;
 }
-.tela12{
+
+.tela10 {
     padding-top: 10px;
     background-color: #413f3f;
     height: 550px;
 }
-.tela12 .but{
+
+.tela10 .but {
     margin-top: -250px;
 }
-.tela13{
+
+.tela11 {
     height: 200px;
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: #000000d7;
 }
-.tela13 .from-grupo{
+
+.tela11 .from-grupo {
     padding-top: 70px;
 }
-.tela13 .butt{
+
+.tela11 .butt {
     padding-top: 70px;
 }
-.tela13 h3{
+
+.tela11 h3 {
     padding-top: 70px;
     color: white;
     font-size: 2.5rem;
 }
-.tela14{
+
+.tela12 {
     padding-top: 10px;
     background-color: #413f3f;
     height: 550px;
 }
-.tela14 .but{
+
+.tela12 .but {
     margin-top: -250px;
 }
+
+.tela13 {
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #000000d7;
+}
+
+.tela13 .from-grupo {
+    padding-top: 70px;
+}
+
+.tela13 .butt {
+    padding-top: 70px;
+}
+
+.tela13 h3 {
+    padding-top: 70px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.tela14 {
+    padding-top: 10px;
+    background-color: #413f3f;
+    height: 550px;
+}
+
+.tela14 .but {
+    margin-top: -250px;
+}
+
 footer#rodape {
     padding-bottom: 2px;
     margin-top: 0;
@@ -228,10 +274,12 @@ footer#rodape {
     text-align: center;
     background-color: #000000d7;
     bottom: 0;
-    
-    
+
+
 }
-footer#rodape p#texto-rodape, a#github {
+
+footer#rodape p#texto-rodape,
+a#github {
     color: #f8f7f7;
     padding-top: 5px;
     margin: 0;
@@ -239,9 +287,11 @@ footer#rodape p#texto-rodape, a#github {
     text-shadow: 0.5px 0.5px 0.5px;
     transition: 0.5s;
 }
-footer#rodape  a#github:hover {
+
+footer#rodape a#github:hover {
     color: #f7f2f2;
 }
+
 i.fa {
     padding: 0;
     font-size: 20px;
@@ -249,7 +299,7 @@ i.fa {
     transition: 0.5s;
 }
 
-i.fa:hover{
+i.fa:hover {
     color: #f7f2f2;
 }
 
@@ -261,10 +311,12 @@ i.fa:hover{
     margin-top: 35px;
     position: relative;
 }
+
 .slider li {
     list-style: none;
     position: absolute;
 }
+
 .slider img {
     margin-right: 15px;
     margin-left: 15px;
@@ -274,9 +326,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .slider input {
     display: none;
 }
+
 .slider label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -287,24 +341,30 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .slider li:nth-child(1) label {
     left: 10px;
 }
+
 .slider li:nth-child(2) label {
     left: 40px;
 }
+
 .slider li:nth-child(3) label {
     left: 70px;
 }
+
 .slider li:nth-child(4) label {
     left: 100px;
 }
+
 .slider img {
     margin-top: 40px;
     opacity: 0;
     visibility: hidden;
 }
-.slider li input:checked ~ img {
+
+.slider li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -316,13 +376,15 @@ i.fa:hover{
     height: 600px;
     width: 600px;
     margin: auto;
-    position: relative;    
+    position: relative;
 
 }
+
 .sldr li {
     list-style: none;
     position: absolute;
 }
+
 .sldr img {
     margin-right: 15px;
     margin-left: 15px;
@@ -331,9 +393,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .sldr input {
     display: none;
 }
+
 .sldr label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -344,18 +408,23 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .sldr li:nth-child(1) label {
     left: 10px;
 }
+
 .sldr li:nth-child(2) label {
     left: 40px;
 }
+
 .sldr li:nth-child(3) label {
     left: 70px;
 }
+
 .sldr li:nth-child(4) label {
     left: 100px;
 }
+
 .sldr img {
     margin-right: 15px;
     margin-left: 5px;
@@ -363,7 +432,8 @@ i.fa:hover{
     opacity: 0;
     visibility: hidden;
 }
-.sldr li input:checked ~ img {
+
+.sldr li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -378,10 +448,12 @@ i.fa:hover{
     margin-top: 80px;
     position: relative;
 }
+
 .sld li {
     list-style: none;
     position: absolute;
 }
+
 .sld img {
     margin-right: 15px;
     margin-left: 15px;
@@ -390,9 +462,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .sld input {
     display: none;
 }
+
 .sld label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -403,18 +477,23 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .sld li:nth-child(1) label {
     left: 10px;
 }
+
 .sld li:nth-child(2) label {
     left: 40px;
 }
+
 .sld li:nth-child(3) label {
     left: 70px;
 }
+
 .sld li:nth-child(4) label {
     left: 100px;
 }
+
 .sld img {
     margin-right: 15px;
     margin-left: 5px;
@@ -422,7 +501,8 @@ i.fa:hover{
     opacity: 0;
     visibility: hidden;
 }
-.sld li input:checked ~ img {
+
+.sld li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -437,10 +517,12 @@ i.fa:hover{
     margin-top: 80px;
     position: relative;
 }
+
 .slr li {
     list-style: none;
     position: absolute;
 }
+
 .slr img {
     margin-right: 15px;
     margin-left: 15px;
@@ -449,9 +531,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .slr input {
     display: none;
 }
+
 .slr label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -462,33 +546,43 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .slr li:nth-child(1) label {
     left: 10px;
 }
+
 .slr li:nth-child(2) label {
     left: 40px;
 }
+
 .slr li:nth-child(3) label {
     left: 70px;
 }
+
 .slr li:nth-child(4) label {
     left: 110px;
 }
+
 .slr li:nth-child(5) label {
     left: 130px;
 }
+
 .slr li:nth-child(6) label {
     left: 160px;
 }
+
 .slr li:nth-child(7) label {
     left: 200px;
 }
+
 .slr li:nth-child(8) label {
     left: 230px;
 }
+
 .slr li:nth-child(9) label {
     left: 260px;
 }
+
 .slr img {
     margin-right: 15px;
     margin-left: 5px;
@@ -496,7 +590,8 @@ i.fa:hover{
     opacity: 0;
     visibility: hidden;
 }
-.slr li input:checked ~ img {
+
+.slr li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -510,10 +605,12 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
+
 .maldivasBB li {
     list-style: none;
     position: absolute;
 }
+
 .maldivasBB img {
     margin-right: 15px;
     margin-left: 15px;
@@ -523,9 +620,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .maldivasBB input {
     display: none;
 }
+
 .maldivasBB label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -536,18 +635,23 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .maldivasBB li:nth-child(1) label {
     left: 10px;
 }
+
 .maldivasBB li:nth-child(2) label {
     left: 40px;
 }
+
 .maldivasBB li:nth-child(3) label {
     left: 70px;
 }
+
 .maldivasBB li:nth-child(4) label {
     left: 100px;
 }
+
 .maldivasBB li:nth-child(5) label {
     left: 130px;
 }
@@ -559,7 +663,8 @@ i.fa:hover{
     opacity: 0;
     visibility: hidden;
 }
-.maldivasBB li input:checked ~ img {
+
+.maldivasBB li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -573,10 +678,12 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
+
 .maldivasMA li {
     list-style: none;
     position: absolute;
 }
+
 .maldivasMA img {
     margin-right: 15px;
     margin-left: 15px;
@@ -586,9 +693,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .maldivasMA input {
     display: none;
 }
+
 .maldivasMA label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -599,30 +708,39 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .maldivasMA li:nth-child(1) label {
     left: 10px;
 }
+
 .maldivasMA li:nth-child(2) label {
     left: 40px;
 }
+
 .maldivasMA li:nth-child(3) label {
     left: 70px;
 }
+
 .maldivasMA li:nth-child(4) label {
     left: 100px;
 }
+
 .maldivasMA li:nth-child(5) label {
     left: 130px;
 }
+
 .maldivasMA li:nth-child(6) label {
     left: 160px;
 }
+
 .maldivasMA li:nth-child(7) label {
     left: 190px;
 }
+
 .maldivasMA li:nth-child(8) label {
     left: 220px;
 }
+
 .maldivasMA img {
     margin-right: 15px;
     margin-left: 5px;
@@ -630,7 +748,8 @@ i.fa:hover{
     visibility: hidden;
     margin-top: -50px;
 }
-.maldivasMA li input:checked ~ img {
+
+.maldivasMA li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -644,10 +763,12 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
+
 .maldivasVV li {
     list-style: none;
     position: absolute;
 }
+
 .maldivasVV img {
     margin-right: 15px;
     margin-left: 15px;
@@ -657,9 +778,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .maldivasVV input {
     display: none;
 }
+
 .maldivasVV label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -670,33 +793,43 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .maldivasVV li:nth-child(1) label {
     left: 10px;
 }
+
 .maldivasVV li:nth-child(2) label {
     left: 40px;
 }
+
 .maldivasVV li:nth-child(3) label {
     left: 70px;
 }
+
 .maldivasVV li:nth-child(4) label {
     left: 100px;
 }
+
 .maldivasVV li:nth-child(5) label {
     left: 130px;
 }
+
 .maldivasVV li:nth-child(6) label {
     left: 160px;
 }
+
 .maldivasVV li:nth-child(7) label {
     left: 190px;
 }
+
 .maldivasVV li:nth-child(8) label {
     left: 220px;
 }
+
 .maldivasVV li:nth-child(9) label {
     left: 250px;
 }
+
 .maldivasVV img {
     margin-right: 15px;
     margin-left: 5px;
@@ -704,7 +837,8 @@ i.fa:hover{
     visibility: hidden;
     margin-top: -50px;
 }
-.maldivasVV li input:checked ~ img {
+
+.maldivasVV li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -718,10 +852,12 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
+
 .japaoBD li {
     list-style: none;
     position: absolute;
 }
+
 .japaoBD img {
     margin-right: 15px;
     margin-left: 15px;
@@ -731,9 +867,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .japaoBD input {
     display: none;
 }
+
 .japaoBD label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -744,24 +882,31 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .japaoBD li:nth-child(1) label {
     left: 10px;
 }
+
 .japaoBD li:nth-child(2) label {
     left: 40px;
 }
+
 .japaoBD li:nth-child(3) label {
     left: 70px;
 }
+
 .japaoBD li:nth-child(4) label {
     left: 100px;
 }
+
 .japaoBD li:nth-child(5) label {
     left: 130px;
 }
+
 .japaoBD li:nth-child(6) label {
     left: 160px;
 }
+
 .japaoBD img {
     margin-right: 15px;
     margin-left: 5px;
@@ -769,7 +914,8 @@ i.fa:hover{
     margin-top: -50px;
     visibility: hidden;
 }
-.japaoBD li input:checked ~ img {
+
+.japaoBD li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -783,10 +929,12 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
+
 .japaoCS li {
     list-style: none;
     position: absolute;
 }
+
 .japaoCS img {
     margin-right: 15px;
     margin-left: 15px;
@@ -796,9 +944,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .japaoCS input {
     display: none;
 }
+
 .japaoCS label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -809,27 +959,35 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .japaoCS li:nth-child(1) label {
     left: 10px;
 }
+
 .japaoCS li:nth-child(2) label {
     left: 40px;
 }
+
 .japaoCS li:nth-child(3) label {
     left: 70px;
 }
+
 .japaoCS li:nth-child(4) label {
     left: 100px;
 }
+
 .japaoCS li:nth-child(5) label {
     left: 130px;
 }
+
 .japaoCS li:nth-child(6) label {
     left: 160px;
 }
+
 .japaoCS li:nth-child(7) label {
     left: 190px;
 }
+
 .japaoCS img {
     margin-right: 15px;
     margin-left: 5px;
@@ -838,13 +996,14 @@ i.fa:hover{
     margin-top: -50px;
 
 }
-.japaoCS li input:checked ~ img {
+
+.japaoCS li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
 }
 
-.aludr {
+.japaoTK {
     display: block;
     height: 600px;
     width: 600px;
@@ -852,11 +1011,13 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
-.aludr li {
+
+.japaoTK li {
     list-style: none;
     position: absolute;
 }
-.aludr img {
+
+.japaoTK img {
     margin-right: 15px;
     margin-left: 15px;
     margin-top: 15px;
@@ -865,10 +1026,12 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
-.aludr input {
+
+.japaoTK input {
     display: none;
 }
-.aludr label {
+
+.japaoTK label {
     background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
@@ -878,25 +1041,32 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
-.aludr li:nth-child(1) label {
+
+.japaoTK li:nth-child(1) label {
     left: 10px;
 }
-.aludr li:nth-child(2) label {
+
+.japaoTK li:nth-child(2) label {
     left: 40px;
 }
-.aludr li:nth-child(3) label {
+
+.japaoTK li:nth-child(3) label {
     left: 70px;
 }
-.aludr li:nth-child(4) label {
+
+.japaoTK li:nth-child(4) label {
     left: 100px;
 }
-.aludr li:nth-child(5) label {
+
+.japaoTK li:nth-child(5) label {
     left: 130px;
 }
-.aludr li:nth-child(6) label {
+
+.japaoTK li:nth-child(6) label {
     left: 160px;
 }
-.aludr img {
+
+.japaoTK img {
     margin-right: 15px;
     margin-left: 5px;
     opacity: 0;
@@ -904,13 +1074,14 @@ i.fa:hover{
     margin-top: -50px;
 
 }
-.aludr li input:checked ~ img {
+
+.japaoTK li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
 }
 
-.ahyl {
+.newYorkMM {
     display: block;
     height: 600px;
     width: 600px;
@@ -918,11 +1089,13 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
-.ahyl li {
+
+.newYorkMM li {
     list-style: none;
     position: absolute;
 }
-.ahyl img {
+
+.newYorkMM img {
     margin-right: 15px;
     margin-left: 15px;
     margin-top: 15px;
@@ -931,10 +1104,12 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
-.ahyl input {
+
+.newYorkMM input {
     display: none;
 }
-.ahyl label {
+
+.newYorkMM label {
     background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
@@ -944,47 +1119,54 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
-.ahyl li:nth-child(1) label {
+
+.newYorkMM li:nth-child(1) label {
     left: 10px;
 }
-.ahyl li:nth-child(2) label {
+
+.newYorkMM li:nth-child(2) label {
     left: 40px;
 }
-.ahyl li:nth-child(3) label {
+
+.newYorkMM li:nth-child(3) label {
     left: 70px;
 }
-.ahyl li:nth-child(4) label {
+
+.newYorkMM li:nth-child(4) label {
     left: 100px;
 }
-.ahyl li:nth-child(5) label {
+
+.newYorkMM li:nth-child(5) label {
     left: 130px;
 }
-.ahyl li:nth-child(6) label {
+
+.newYorkMM li:nth-child(6) label {
     left: 160px;
 }
-.ahyl li:nth-child(7) label {
+
+.newYorkMM li:nth-child(7) label {
     left: 200px;
 }
-.ahyl li:nth-child(8) label {
+
+.newYorkMM li:nth-child(8) label {
     left: 230px;
 }
-.ahyl li:nth-child(9) label {
-    left: 260px;
-}
-.ahyl img {
+
+.newYorkMM img {
     margin-right: 15px;
     margin-left: 5px;
     margin-top: -50px;
     opacity: 0;
     visibility: hidden;
 }
-.ahyl li input:checked ~ img {
+
+.newYorkMM li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
 }
 
-.nyc {
+.newYorkPO {
     display: block;
     height: 600px;
     width: 600px;
@@ -992,11 +1174,13 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
-.nyc li {
+
+.newYorkPO li {
     list-style: none;
     position: absolute;
 }
-.nyc img {
+
+.newYorkPO img {
     margin-right: 15px;
     margin-left: 15px;
     margin-top: 15px;
@@ -1005,10 +1189,12 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
-.nyc input {
+
+.newYorkPO input {
     display: none;
 }
-.nyc label {
+
+.newYorkPO label {
     background-color: #d3a31fc7;
     bottom: 10px;
     cursor: pointer;
@@ -1018,47 +1204,125 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
-.nyc li:nth-child(1) label {
+
+.newYorkPO li:nth-child(1) label {
     left: 10px;
 }
-.nyc li:nth-child(2) label {
+
+.newYorkPO li:nth-child(2) label {
     left: 40px;
 }
-.nyc li:nth-child(3) label {
+
+.newYorkPO li:nth-child(3) label {
     left: 70px;
 }
-.nyc li:nth-child(4) label {
+
+.newYorkPO li:nth-child(4) label {
     left: 100px;
 }
-.nyc li:nth-child(5) label {
+
+.newYorkPO li:nth-child(5) label {
     left: 130px;
 }
-.nyc li:nth-child(6) label {
+
+.newYorkPO li:nth-child(6) label {
     left: 160px;
 }
-.nyc li:nth-child(7) label {
-    left: 200px;
+
+.newYorkPO li:nth-child(7) label {
+    left: 190px;
 }
-.nyc li:nth-child(8) label {
-    left: 230px;
-}
-.nyc li:nth-child(9) label {
-    left: 260px;
-}
-.nyc li:nth-child(10) label {
-    left: 290px;
-}
-.nyc li:nth-child(11) label {
-    left: 320px;
-}
-.nyc img {
+
+.newYorkPO img {
     margin-right: 15px;
     margin-left: 5px;
     margin-top: -50px;
     opacity: 0;
     visibility: hidden;
 }
-.nyc li input:checked ~ img {
+
+.newYorkPO li input:checked~img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.newYorkMA {
+    display: block;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.newYorkMA li {
+    list-style: none;
+    position: absolute;
+}
+
+.newYorkMA img {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.newYorkMA input {
+    display: none;
+}
+
+.newYorkMA label {
+    background-color: #d3a31fc7;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.newYorkMA li:nth-child(1) label {
+    left: 10px;
+}
+
+.newYorkMA li:nth-child(2) label {
+    left: 40px;
+}
+
+.newYorkMA li:nth-child(3) label {
+    left: 70px;
+}
+
+.newYorkMA li:nth-child(4) label {
+    left: 100px;
+}
+
+.newYorkMA li:nth-child(5) label {
+    left: 130px;
+}
+
+.newYorkMA li:nth-child(6) label {
+    left: 160px;
+}
+
+.newYorkMA li:nth-child(7) label {
+    left: 190px;
+}
+
+.newYorkMA img {
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-top: -50px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.newYorkMA li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -1072,10 +1336,12 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
+
 .ptlis li {
     list-style: none;
     position: absolute;
 }
+
 .ptlis img {
     margin-right: 15px;
     margin-left: 15px;
@@ -1085,9 +1351,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .ptlis input {
     display: none;
 }
+
 .ptlis label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -1098,42 +1366,55 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .ptlis li:nth-child(1) label {
     left: 10px;
 }
+
 .ptlis li:nth-child(2) label {
     left: 40px;
 }
+
 .ptlis li:nth-child(3) label {
     left: 70px;
 }
+
 .ptlis li:nth-child(4) label {
     left: 100px;
 }
+
 .ptlis li:nth-child(5) label {
     left: 130px;
 }
+
 .ptlis li:nth-child(6) label {
     left: 160px;
 }
+
 .ptlis li:nth-child(7) label {
     left: 200px;
 }
+
 .ptlis li:nth-child(8) label {
     left: 230px;
 }
+
 .ptlis li:nth-child(9) label {
     left: 260px;
 }
+
 .ptlis li:nth-child(10) label {
     left: 290px;
 }
+
 .ptlis li:nth-child(11) label {
     left: 320px;
 }
+
 .ptlis li:nth-child(12) label {
     left: 350px;
 }
+
 .ptlis img {
     margin-right: 15px;
     margin-left: 5px;
@@ -1141,7 +1422,8 @@ i.fa:hover{
     opacity: 0;
     visibility: hidden;
 }
-.ptlis li input:checked ~ img {
+
+.ptlis li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -1155,10 +1437,12 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
+
 .lis li {
     list-style: none;
     position: absolute;
 }
+
 .lis img {
     margin-right: 15px;
     margin-left: 15px;
@@ -1168,9 +1452,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .lis input {
     display: none;
 }
+
 .lis label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -1181,39 +1467,51 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .lis li:nth-child(1) label {
     left: 10px;
 }
+
 .lis li:nth-child(2) label {
     left: 40px;
 }
+
 .lis li:nth-child(3) label {
     left: 70px;
 }
+
 .lis li:nth-child(4) label {
     left: 100px;
 }
+
 .lis li:nth-child(5) label {
     left: 130px;
 }
+
 .lis li:nth-child(6) label {
     left: 160px;
 }
+
 .lis li:nth-child(7) label {
     left: 200px;
 }
+
 .lis li:nth-child(8) label {
     left: 230px;
 }
+
 .lis li:nth-child(9) label {
     left: 260px;
 }
+
 .lis li:nth-child(10) label {
     left: 290px;
 }
+
 .lis li:nth-child(11) label {
     left: 320px;
 }
+
 .lis img {
     margin-right: 15px;
     margin-left: 5px;
@@ -1221,7 +1519,8 @@ i.fa:hover{
     opacity: 0;
     visibility: hidden;
 }
-.lis li input:checked ~ img {
+
+.lis li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -1235,10 +1534,12 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
+
 .crbres li {
     list-style: none;
     position: absolute;
 }
+
 .crbres img {
     margin-right: 15px;
     margin-left: 15px;
@@ -1248,9 +1549,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .crbres input {
     display: none;
 }
+
 .crbres label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -1261,42 +1564,55 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .crbres li:nth-child(1) label {
     left: 10px;
 }
+
 .crbres li:nth-child(2) label {
     left: 40px;
 }
+
 .crbres li:nth-child(3) label {
     left: 70px;
 }
+
 .crbres li:nth-child(4) label {
     left: 100px;
 }
+
 .crbres li:nth-child(5) label {
     left: 130px;
 }
+
 .crbres li:nth-child(6) label {
     left: 160px;
 }
+
 .crbres li:nth-child(7) label {
     left: 200px;
 }
+
 .crbres li:nth-child(8) label {
     left: 230px;
 }
+
 .crbres li:nth-child(9) label {
     left: 260px;
 }
+
 .crbres li:nth-child(10) label {
     left: 290px;
 }
+
 .crbres li:nth-child(11) label {
     left: 320px;
 }
+
 .crbres li:nth-child(12) label {
     left: 350px;
 }
+
 .crbres img {
     margin-right: 15px;
     margin-left: 5px;
@@ -1304,7 +1620,8 @@ i.fa:hover{
     opacity: 0;
     visibility: hidden;
 }
-.crbres li input:checked ~ img {
+
+.crbres li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -1319,10 +1636,12 @@ i.fa:hover{
     margin-top: 100px;
     position: relative;
 }
+
 .cbs li {
     list-style: none;
     position: absolute;
 }
+
 .cbs img {
     margin-right: 15px;
     margin-left: 15px;
@@ -1332,9 +1651,11 @@ i.fa:hover{
     width: 100%;
     vertical-align: top;
 }
+
 .cbs input {
     display: none;
 }
+
 .cbs label {
     background-color: #d3a31fc7;
     bottom: 10px;
@@ -1345,42 +1666,55 @@ i.fa:hover{
     width: 10px;
     z-index: 10;
 }
+
 .cbs li:nth-child(1) label {
     left: 10px;
 }
+
 .cbs li:nth-child(2) label {
     left: 40px;
 }
+
 .cbs li:nth-child(3) label {
     left: 70px;
 }
+
 .cbs li:nth-child(4) label {
     left: 100px;
 }
+
 .cbs li:nth-child(5) label {
     left: 130px;
 }
+
 .cbs li:nth-child(6) label {
     left: 160px;
 }
+
 .cbs li:nth-child(7) label {
     left: 200px;
 }
+
 .cbs li:nth-child(8) label {
     left: 230px;
 }
+
 .cbs li:nth-child(9) label {
     left: 260px;
 }
+
 .cbs li:nth-child(10) label {
     left: 290px;
 }
+
 .cbs li:nth-child(11) label {
     left: 320px;
 }
+
 .cbs li:nth-child(12) label {
     left: 350px;
 }
+
 .cbs img {
     margin-right: 15px;
     margin-top: -50px;
@@ -1388,13 +1722,13 @@ i.fa:hover{
     opacity: 0;
     visibility: hidden;
 }
-.cbs li input:checked ~ img {
+
+.cbs li input:checked~img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
 }
-.bg-dark{
+
+.bg-dark {
     background-color: #496d6d;
 }
-
-
